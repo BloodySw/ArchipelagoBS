@@ -1,0 +1,7 @@
+﻿Button/Hotkey/AP_VoidZealotWhirlwind=E
+Button/Hotkey/AiurFaction=A
+Button/Hotkey/Arbiter2=V
+Button/Hotkey/Charge2=C
+Button/Hotkey/NerazimFaction=N
+Button/Hotkey/PurifierFaction=P
+Button/Hotkey/TaldarimFaction=L

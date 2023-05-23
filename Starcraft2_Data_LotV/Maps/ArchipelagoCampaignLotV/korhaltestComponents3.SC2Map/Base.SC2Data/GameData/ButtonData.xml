@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="AiurFaction">
+        <Icon value="Assets\Textures\ui_void_armyupgrade_factionaiur_categoryicon.dds"/>
+        <AlertIcon value="Assets\Textures\ui_void_armyupgrade_factionaiur_categoryicon.dds"/>
+        <TooltipFlags index="ShowLevel" value="0"/>
+        <TooltipFlags index="ShowResources" value="0"/>
+        <TooltipFlags index="ShowSupply" value="0"/>
+        <TooltipFlags index="ShowTime" value="0"/>
+        <TooltipFlags index="ShowCooldown" value="0"/>
+        <TooltipFlags index="ShowRequirements" value="0"/>
+        <TooltipFlags index="ShowAutocast" value="0"/>
+    </CButton>
+    <CButton id="Arbiter2">
+        <Icon value="Assets\Textures\btn-unit-protoss-arbiter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-arbiter.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="VoidRay"/>
+    </CButton>
+    <CButton id="CarrierAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-carrier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-carrier.dds"/>
+        <Hotkey value="Button/Hotkey/Carrier"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Carrier"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="CarrierTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-mothership-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-mothership-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/Carrier"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Carrier"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ColossusPurifier2">
+        <Icon value="Assets\Textures\btn-unit-protoss-colossus-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-colossus-purifier.dds"/>
+        <Hotkey value="Button/Hotkey/Colossus"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Colossus"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ColossusTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-colossus-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-colossus-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/Colossus"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Colossus"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Corsair2">
+        <Icon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <Hotkey value="Button/Hotkey/Phoenix"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Phoenix"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="DarkTemplarAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-darktemplar-aiur.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darktemplar-aiur.dds"/>
+        <Hotkey value="Button/Hotkey/DarkTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="DarkTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="DarkTemplarShakuras2">
+        <Icon value="Assets\Textures\btn-unit-protoss-darktemplar.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darktemplar.dds"/>
+        <Hotkey value="Button/Hotkey/DarkTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="DarkTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="DarkTemplarTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-darktemplar-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darktemplar-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/DarkTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="DarkTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="HighTemplarAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-hightemplar.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-hightemplar.dds"/>
+        <Hotkey value="Button/Hotkey/HighTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="HighTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="HighTemplarShakuras2">
+        <Icon value="Assets\Textures\btn-unit-protoss-darkarchon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darkarchon.dds"/>
+        <Hotkey value="Button/Hotkey/HighTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="HighTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="HighTemplarTaldarim">
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-hightemplar-taldarim.dds"/>
+    </CButton>
+    <CButton id="HighTemplarTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-hightemplar-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-hightemplar-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/HighTemplar"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="HighTemplar"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ImmortalAiur2">
+        <Icon value="Assets\Textures\BTN-Unit-Protoss-Immortal.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Unit-Protoss-Immortal.dds"/>
+        <Hotkey value="Button/Hotkey/Immortal"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Immortal"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ImmortalShakuras2">
+        <Icon value="Assets\Textures\btn-unit-protoss-immortal-nerazim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-immortal-nerazim.dds"/>
+        <Hotkey value="Button/Hotkey/Immortal"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Immortal"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ImmortalTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-immortal-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-immortal-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/Immortal"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Immortal"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Monitor2">
+        <Icon value="Assets\Textures\btn-unit-protoss-sentry-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-sentry-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/Sentry"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Sentry"/>
+    </CButton>
+    <CButton id="PhoenixAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-phoenix.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-phoenix.dds"/>
+        <Hotkey value="Button/Hotkey/Phoenix"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Phoenix"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="PurifierFaction">
+        <TooltipFlags index="ShowLevel" value="0"/>
+        <TooltipFlags index="ShowResources" value="0"/>
+        <TooltipFlags index="ShowSupply" value="0"/>
+        <TooltipFlags index="ShowTime" value="0"/>
+        <TooltipFlags index="ShowCooldown" value="0"/>
+        <TooltipFlags index="ShowRequirements" value="0"/>
+        <TooltipFlags index="ShowAutocast" value="0"/>
+        <Icon value="Assets\Textures\sc2_ui_ingame_storymode_panel_faction_purifier_categoryicon.dds"/>
+        <AlertIcon value="Assets\Textures\sc2_ui_ingame_storymode_panel_faction_purifier_categoryicon.dds"/>
+    </CButton>
+    <CButton id="NerazimFaction">
+        <TooltipFlags index="ShowLevel" value="0"/>
+        <TooltipFlags index="ShowResources" value="0"/>
+        <TooltipFlags index="ShowSupply" value="0"/>
+        <TooltipFlags index="ShowTime" value="0"/>
+        <TooltipFlags index="ShowCooldown" value="0"/>
+        <TooltipFlags index="ShowRequirements" value="0"/>
+        <TooltipFlags index="ShowAutocast" value="0"/>
+        <Icon value="Assets\Textures\ui_void_armyupgrade_factionnerazim_categoryicon.dds"/>
+        <AlertIcon value="Assets\Textures\ui_void_armyupgrade_factionnerazim_categoryicon.dds"/>
+        <HotkeyAlias value="PurifierFaction"/>
+    </CButton>
+    <CButton id="Reaver2">
+        <Icon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <Hotkey value="Button/Hotkey/Colossus"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Colossus"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="SentryAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-sentry.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-sentry.dds"/>
+        <Hotkey value="Button/Hotkey/Sentry"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Sentry"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="SentryPurifier2">
+        <Icon value="Assets\Textures\btn-unit-protoss-sentry-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-sentry-purifier.dds"/>
+        <Hotkey value="Button/Hotkey/Sentry"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Sentry"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="StalkerAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <Hotkey value="Button/Hotkey/Stalker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Stalker"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="StalkerShakuras2">
+        <Icon value="Assets\Textures\btn-unit-protoss-stalker.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-stalker.dds"/>
+        <Hotkey value="Button/Hotkey/Stalker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Stalker"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="TaldarimFaction">
+        <Icon value="Assets\Textures\sc2_ui_ingame_storymode_panel_faction_taldarim_categoryicon.dds"/>
+        <AlertIcon value="Assets\Textures\sc2_ui_ingame_storymode_panel_faction_taldarim_categoryicon.dds"/>
+    </CButton>
+    <CButton id="Tempest2">
+        <Icon value="Assets\Textures\btn-unit-protoss-tempest.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-tempest.dds"/>
+        <Hotkey value="Button/Hotkey/Carrier"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Carrier"/>
+    </CButton>
+    <CButton id="VoidPhoenixPurifier2">
+        <Icon value="Assets\Textures\btn-unit-protoss-phoenix-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-phoenix-purifier.dds"/>
+        <Hotkey value="Button/Hotkey/Phoenix"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Phoenix"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="VoidRayShakuras2">
+        <Icon value="Assets\Textures\BTN-Unit-Protoss-VoidRay-Nerazim.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Unit-Protoss-VoidRay-Nerazim.dds"/>
+        <Hotkey value="Button/Hotkey/VoidRay"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="VoidRay"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="VoidRayTaldarim2">
+        <Icon value="Assets\Textures\btn-unit-protoss-voidray-taldarim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-voidray-taldarim.dds"/>
+        <Hotkey value="Button/Hotkey/VoidRay"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="VoidRay"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_VoidZealotWhirlwind">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+    </CButton>
+    <CButton id="WarpInAdept2">
+        <Icon value="Assets\Textures\btn-unit-protoss-adept-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-adept-purifier.dds"/>
+        <Hotkey value="Button/Hotkey/Stalker"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Stalker"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ZealotAiur2">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-aiur.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-aiur.dds"/>
+        <Hotkey value="Button/Hotkey/Zealot"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Zealot"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ZealotPurifier2">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-purifier.dds"/>
+        <Hotkey value="Button/Hotkey/Zealot"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Zealot"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ZealotShakuras2">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-nerazim.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-nerazim.dds"/>
+        <Hotkey value="Button/Hotkey/Zealot"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Zealot"/>
+        <Universal value="1"/>
+    </CButton>
+</Catalog>

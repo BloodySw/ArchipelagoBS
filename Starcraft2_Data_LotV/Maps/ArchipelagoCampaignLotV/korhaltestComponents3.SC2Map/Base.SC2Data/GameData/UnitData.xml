@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="Archipelago">
+        <Name value="Archipelago"/>
+        <LifeStart value="38281"/>
+        <LifeMax value="38281"/>
+        <AbilArray Link="SetSentinel"/>
+        <AbilArray Link="SetAiurZealot"/>
+        <AbilArray Link="SetCenturion"/>
+        <AbilArray Link="SetSentry"/>
+        <AbilArray Link="SetEnergizer"/>
+        <AbilArray Link="SetHavoc"/>
+        <AbilArray Link="SetDragoon"/>
+        <AbilArray Link="SetStalker"/>
+        <AbilArray Link="SetAdept"/>
+        <AbilArray Link="SetHighTemplar"/>
+        <AbilArray Link="SetDarkArchon"/>
+        <AbilArray Link="SetAscendant"/>
+        <AbilArray Link="SetAvenger"/>
+        <AbilArray Link="SetDarkTemplar"/>
+        <AbilArray Link="SetBloodHunter"/>
+        <AbilArray Link="SetImmortal"/>
+        <AbilArray Link="SetAnnihilator"/>
+        <AbilArray Link="SetVanguard"/>
+        <AbilArray Link="SetColossus"/>
+        <AbilArray Link="SetReaver"/>
+        <AbilArray Link="SetWrathwalker"/>
+        <AbilArray Link="SetMirage"/>
+        <AbilArray Link="SetPhoenix"/>
+        <AbilArray Link="SetCorsair"/>
+        <AbilArray Link="SetVoidRay"/>
+        <AbilArray Link="SetDestroyer"/>
+        <AbilArray Link="SetArbiter"/>
+        <AbilArray Link="SetCarrier"/>
+        <AbilArray Link="SetTempest"/>
+        <AbilArray Link="SetMothership"/>
+    </CUnit>
+    <CUnit id="Gateway">
+        <AbilArray Link="SetSentinel"/>
+        <AbilArray Link="SetAiurZealot"/>
+        <AbilArray Link="SetCenturion"/>
+        <AbilArray Link="SetSentry"/>
+        <AbilArray Link="SetEnergizer"/>
+        <AbilArray Link="SetHavoc"/>
+        <AbilArray Link="SetDragoon"/>
+        <AbilArray Link="SetStalker"/>
+        <AbilArray Link="SetAdept"/>
+        <AbilArray Link="SetHighTemplar"/>
+        <AbilArray Link="SetDarkArchon"/>
+        <AbilArray Link="SetAscendant"/>
+        <AbilArray Link="SetAvenger"/>
+        <AbilArray Link="SetDarkTemplar"/>
+        <AbilArray Link="SetBloodHunter"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ZealotAiur" Type="AbilCmd" AbilCmd="GatewayTrain,Train9" Row="0" Column="0"/>
+            <LayoutButtons Face="ZealotShakuras" Type="AbilCmd" AbilCmd="GatewayTrain,Train10" Row="0" Column="0"/>
+            <LayoutButtons Face="ZealotPurifier" Type="AbilCmd" AbilCmd="GatewayTrain,Train11" Row="0" Column="0"/>
+            <LayoutButtons Face="AiurFaction" Type="Submenu" SubmenuCardId="0003" Row="0" Column="3"/>
+            <LayoutButtons Face="NerazimFaction" Type="Submenu" SubmenuCardId="0004" Row="0" Column="4"/>
+            <LayoutButtons Face="PurifierFaction" Type="Submenu" SubmenuCardId="0005" Row="1" Column="3"/>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="ZealotAiur2" Type="AbilCmd" AbilCmd="SetAiurZealot,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="SentryAiur2" Type="AbilCmd" AbilCmd="SetSentry,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="StalkerAiur2" Type="AbilCmd" AbilCmd="SetDragoon,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="HighTemplarAiur2" Type="AbilCmd" AbilCmd="SetHighTemplar,Execute" Row="1" Column="0"/>
+            <LayoutButtons Face="DarkTemplarAiur2" Type="AbilCmd" AbilCmd="SetAvenger,Execute" Row="1" Column="1"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="ZealotShakuras2" Type="AbilCmd" AbilCmd="SetCenturion,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="StalkerShakuras2" Type="AbilCmd" AbilCmd="SetStalker,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="DarkTemplarShakuras2" Type="AbilCmd" AbilCmd="SetDarkTemplar,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="HighTemplarShakuras2" Type="AbilCmd" AbilCmd="SetDarkArchon,Execute" Row="1" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="SentryPurifier2" Type="AbilCmd" AbilCmd="SetEnergizer,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="WarpInAdept2" Type="AbilCmd" AbilCmd="SetAdept,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="ZealotPurifier2" Type="AbilCmd" AbilCmd="SetSentinel,Execute" Row="0" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="Monitor2" Type="AbilCmd" AbilCmd="SetHavoc,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="DarkTemplarTaldarim2" Type="AbilCmd" AbilCmd="SetBloodHunter,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="HighTemplarTaldarim2" Type="AbilCmd" AbilCmd="SetAscendant,Execute" Row="1" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="RoboticsFacility">
+        <AbilArray Link="SetImmortal"/>
+        <AbilArray Link="SetAnnihilator"/>
+        <AbilArray Link="SetVanguard"/>
+        <AbilArray Link="SetColossus"/>
+        <AbilArray Link="SetReaver"/>
+        <AbilArray Link="SetWrathwalker"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="AiurFaction" Type="Submenu" SubmenuCardId="0003" Row="0" Column="3"/>
+            <LayoutButtons Face="NerazimFaction" Type="Submenu" SubmenuCardId="0004" Row="0" Column="4"/>
+            <LayoutButtons Face="PurifierFaction" Type="Submenu" SubmenuCardId="0005" Row="1" Column="3"/>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="ImmortalAiur2" Type="AbilCmd" AbilCmd="SetImmortal,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Reaver2" Type="AbilCmd" AbilCmd="SetReaver,Execute" Row="0" Column="1"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="ImmortalShakuras2" Type="AbilCmd" AbilCmd="SetAnnihilator,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="ColossusPurifier2" Type="AbilCmd" AbilCmd="SetColossus,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="ImmortalTaldarim2" Type="AbilCmd" AbilCmd="SetVanguard,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="ColossusTaldarim2" Type="AbilCmd" AbilCmd="SetWrathwalker,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="RoboticsFacilityWarp">
+        <AbilArray Link="SetImmortal"/>
+        <AbilArray Link="SetAnnihilator"/>
+        <AbilArray Link="SetVanguard"/>
+        <AbilArray Link="SetColossus"/>
+        <AbilArray Link="SetReaver"/>
+        <AbilArray Link="SetWrathwalker"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="8" Face="NerazimFaction" Type="Submenu" AbilCmd="" SubmenuCardId="0004" Column="4"/>
+            <LayoutButtons Face="AiurFaction" Type="Submenu" SubmenuCardId="0003" Row="0" Column="3"/>
+            <LayoutButtons Face="PurifierFaction" Type="Submenu" SubmenuCardId="0005" Row="1" Column="3"/>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="ImmortalAiur2" Type="AbilCmd" AbilCmd="SetImmortal,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Reaver2" Type="AbilCmd" AbilCmd="SetReaver,Execute" Row="0" Column="1"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="ImmortalShakuras2" Type="AbilCmd" AbilCmd="SetAnnihilator,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="ColossusPurifier2" Type="AbilCmd" AbilCmd="SetColossus,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="ImmortalTaldarim2" Type="AbilCmd" AbilCmd="SetVanguard,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="ColossusTaldarim2" Type="AbilCmd" AbilCmd="SetWrathwalker,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="SoACaster">
+        <CardLayouts index="0">
+            <LayoutButtons index="1" Face="Decal_Spray_0067_01" Type="Submenu" AbilCmd="" SubmenuCardId="0002"/>
+            <LayoutButtons index="2" Face="SOAWarpInReinforcements" AbilCmd="SOAWarpInReinforcements,Build1"/>
+            <LayoutButtons index="3" Face="SOASuperChrono" AbilCmd="SOASuperChrono,Execute"/>
+            <LayoutButtons index="4" Face="SOAProxyPylon" AbilCmd="SOAProxyPylon,Build1"/>
+            <LayoutButtons index="6" Face="Decal_Spray_0109_01" Type="Submenu" AbilCmd="" SubmenuCardId="0003"/>
+            <LayoutButtons index="7" Face="SOAThermalLance" AbilCmd="SOAThermalLanceActivate,On"/>
+            <LayoutButtons index="8" Face="SOAGravitonBomb" AbilCmd="SOAGravitonBombActivate,On"/>
+            <LayoutButtons index="10" Face="Decal_Spray_0066_01" Type="Submenu" AbilCmd="" SubmenuCardId="0004"/>
+            <LayoutButtons index="11" Face="SOARecall" AbilCmd="SOARecall,Execute"/>
+            <LayoutButtons index="12" Face="SOASuperShield" AbilCmd="SoASuperShield,Execute"/>
+            <LayoutButtons index="14" Face="Decal_Spray_0025_01" Type="Submenu" AbilCmd="" SubmenuCardId="0005"/>
+            <LayoutButtons index="15" Face="SOATimeFreeze" AbilCmd="SOATimeFreeze,Execute"/>
+            <LayoutButtons index="16" Face="SOAStrafeAttack" AbilCmd="SOAStrafeAttack,Execute"/>
+            <LayoutButtons index="19" AbilCmd="SOAOrbitalStrikeActivate,On" Row="0" Column="1"/>
+            <LayoutButtons index="20" Face="SOAEmergencyRecall" AbilCmd="SOAEmergencyRecall,Execute" Row="0" Column="0"/>
+            <LayoutButtons index="21" Face="SOAFenix" AbilCmd="SOAFenixCalldown,Execute" Row="0" Column="2"/>
+            <LayoutButtons index="22" Face="SOAPurifierBeam" AbilCmd="SOAPurifierBeam,Execute" Row="0" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0002">
+            <LayoutButtons Face="SOAProxyPylon" Type="AbilCmd" AbilCmd="SOAProxyPylon,Build1" Row="0" Column="0"/>
+            <LayoutButtons Face="SOASuperChrono" Type="AbilCmd" AbilCmd="SOASuperChrono,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="SOAWarpInReinforcements" Type="AbilCmd" AbilCmd="SOAWarpInReinforcements,Build1" Row="0" Column="2"/>
+            <LayoutButtons Face="Decal_Spray_0112_01" Type="CancelSubmenu" Row="0" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="SOAOrbitalStrike" Type="AbilCmd" AbilCmd="SOAOrbitalStrikeActivate,On" Row="0" Column="0"/>
+            <LayoutButtons Face="SOAGravitonBomb" Type="AbilCmd" AbilCmd="SOAGravitonBombActivate,On" Row="0" Column="1"/>
+            <LayoutButtons Face="SOAThermalLance" Type="AbilCmd" AbilCmd="SOAThermalLanceActivate,On" Row="0" Column="2"/>
+            <LayoutButtons Face="Decal_Spray_0112_01" Type="CancelSubmenu" Row="0" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="SOARecall" Type="AbilCmd" AbilCmd="SOARecall,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="SOASuperShield" Type="AbilCmd" AbilCmd="SoASuperShield,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="SOAFenix" Type="AbilCmd" AbilCmd="SOAFenixCalldown,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Decal_Spray_0112_01" Type="CancelSubmenu" Row="0" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="SOAPurifierBeam" Type="AbilCmd" AbilCmd="SOAPurifierBeam,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="SOATimeFreeze" Type="AbilCmd" AbilCmd="SOATimeFreeze,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="SOAStrafeAttack" Type="AbilCmd" AbilCmd="SOAStrafeAttack,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Decal_Spray_0112_01" Type="CancelSubmenu" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Stargate">
+        <AbilArray Link="SetMirage"/>
+        <AbilArray Link="SetPhoenix"/>
+        <AbilArray Link="SetCorsair"/>
+        <AbilArray Link="SetVoidRay"/>
+        <AbilArray Link="SetDestroyer"/>
+        <AbilArray Link="SetArbiter"/>
+        <AbilArray Link="SetCarrier"/>
+        <AbilArray Link="SetTempest"/>
+        <AbilArray Link="SetMothership"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="AiurFaction" Type="Submenu" SubmenuCardId="0003" Row="0" Column="3"/>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+            <LayoutButtons Face="NerazimFaction" Type="Submenu" SubmenuCardId="0004" Row="0" Column="4"/>
+            <LayoutButtons Face="PurifierFaction" Type="Submenu" SubmenuCardId="0005" Row="1" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="PhoenixAiur2" Type="AbilCmd" AbilCmd="SetPhoenix,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Arbiter2" Type="AbilCmd" AbilCmd="SetArbiter,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CarrierAiur2" Type="AbilCmd" AbilCmd="SetCarrier,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="VoidRayShakuras2" Type="AbilCmd" AbilCmd="SetVoidRay,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="Corsair2" Type="AbilCmd" AbilCmd="SetCorsair,Execute" Row="0" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="VoidPhoenixPurifier2" Type="AbilCmd" AbilCmd="SetMirage,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Tempest2" Type="AbilCmd" AbilCmd="SetTempest,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="VoidRayTaldarim2" Type="AbilCmd" AbilCmd="SetDestroyer,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CarrierTaldarim2" Type="AbilCmd" AbilCmd="SetMothership,Execute" Row="0" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="StargateWarp">
+        <AbilArray Link="SetMirage"/>
+        <AbilArray Link="SetPhoenix"/>
+        <AbilArray Link="SetCorsair"/>
+        <AbilArray Link="SetVoidRay"/>
+        <AbilArray Link="SetDestroyer"/>
+        <AbilArray Link="SetArbiter"/>
+        <AbilArray Link="SetCarrier"/>
+        <AbilArray Link="SetTempest"/>
+        <AbilArray Link="SetMothership"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="8" Face="AiurFaction" Type="Submenu" AbilCmd="" SubmenuCardId="0003" Column="3"/>
+            <LayoutButtons index="9" Face="NerazimFaction" Type="Submenu" SubmenuCardId="0004" Row="0" Column="4"/>
+            <LayoutButtons index="10">
+                <Face value="PurifierFaction"/>
+                <Type value="Submenu"/>
+                <AbilCmd value=""/>
+                <SubmenuCardId value="0005"/>
+                <Row value="1"/>
+                <Column value="3"/>
+            </LayoutButtons>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+        </CardLayouts>
+        <CardLayouts index="1" CardId="0003">
+            <LayoutButtons Face="PhoenixAiur2" Type="AbilCmd" AbilCmd="SetPhoenix,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Arbiter2" Type="AbilCmd" AbilCmd="SetArbiter,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CarrierAiur2" Type="AbilCmd" AbilCmd="SetCarrier,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="VoidRayShakuras2" Type="AbilCmd" AbilCmd="SetVoidRay,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="Corsair2" Type="AbilCmd" AbilCmd="SetCorsair,Execute" Row="0" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="VoidPhoenixPurifier2" Type="AbilCmd" AbilCmd="SetMirage,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="Tempest2" Type="AbilCmd" AbilCmd="SetTempest,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="VoidRayTaldarim2" Type="AbilCmd" AbilCmd="SetDestroyer,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CarrierTaldarim2" Type="AbilCmd" AbilCmd="SetMothership,Execute" Row="0" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="WarpGate">
+        <AbilArray Link="SetSentinel"/>
+        <AbilArray Link="SetAiurZealot"/>
+        <AbilArray Link="SetCenturion"/>
+        <AbilArray Link="SetSentry"/>
+        <AbilArray Link="SetEnergizer"/>
+        <AbilArray Link="SetHavoc"/>
+        <AbilArray Link="SetDragoon"/>
+        <AbilArray Link="SetStalker"/>
+        <AbilArray Link="SetAdept"/>
+        <AbilArray Link="SetHighTemplar"/>
+        <AbilArray Link="SetDarkArchon"/>
+        <AbilArray Link="SetAscendant"/>
+        <AbilArray Link="SetAvenger"/>
+        <AbilArray Link="SetDarkTemplar"/>
+        <AbilArray Link="SetBloodHunter"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="AiurFaction" Type="Submenu" SubmenuCardId="0003" Row="0" Column="3"/>
+            <LayoutButtons Face="NerazimFaction" Type="Submenu" SubmenuCardId="0004" Row="0" Column="4"/>
+            <LayoutButtons Face="TaldarimFaction" Type="Submenu" SubmenuCardId="0006" Row="2" Column="3"/>
+            <LayoutButtons Face="PurifierFaction" Type="Submenu" SubmenuCardId="0005" Row="1" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="ZealotAiur2" Type="AbilCmd" AbilCmd="SetAiurZealot,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="SentryAiur2" Type="AbilCmd" AbilCmd="SetSentry,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="StalkerAiur2" Type="AbilCmd" AbilCmd="SetDragoon,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="HighTemplarAiur2" Type="AbilCmd" AbilCmd="SetHighTemplar,Execute" Row="1" Column="0"/>
+            <LayoutButtons Face="DarkTemplarAiur2" Type="AbilCmd" AbilCmd="SetAvenger,Execute" Row="1" Column="1"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="ZealotShakuras2" Type="AbilCmd" AbilCmd="SetCenturion,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="StalkerShakuras2" Type="AbilCmd" AbilCmd="SetStalker,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="DarkTemplarShakuras2" Type="AbilCmd" AbilCmd="SetDarkTemplar,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="HighTemplarShakuras2" Type="AbilCmd" AbilCmd="SetDarkArchon,Execute" Row="1" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="SentryPurifier2" Type="AbilCmd" AbilCmd="SetEnergizer,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="WarpInAdept2" Type="AbilCmd" AbilCmd="SetAdept,Execute" Row="0" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="ZealotPurifier2" Type="AbilCmd" AbilCmd="SetSentinel,Execute" Row="0" Column="0"/>
+        </CardLayouts>
+        <CardLayouts CardId="0006">
+            <LayoutButtons Face="Monitor2" Type="AbilCmd" AbilCmd="SetHavoc,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="DarkTemplarTaldarim2" Type="AbilCmd" AbilCmd="SetBloodHunter,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="HighTemplarTaldarim2" Type="AbilCmd" AbilCmd="SetAscendant,Execute" Row="1" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="AP_ZealotAiur">
+        <DeathRevealRadius value="3"/>
+        <ReviveType value="Zealot"/>
+        <Race value="Prot"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>
+        <ShieldsStart value="50"/>
+        <ShieldsMax value="50"/>
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
+        <Speed value="2.75"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="Warpable"/>
+        <AbilArray Link="ProgressRally"/>
+        <AbilArray Link="Charge"/>
+        <AbilArray Link="AP_VoidZealotWhirlwind"/>
+        <BehaviorArray Link="ZealotRespawnDeath"/>
+        <BehaviorArray Link="SOAHeroicShieldProcBuff2"/>
+        <WeaponArray Link="SolariteReaper"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
+            <LayoutButtons Face="Charge" Type="AbilCmd" AbilCmd="Charge,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="AP_VoidZealotWhirlwind" Type="AbilCmd" AbilCmd="AP_VoidZealotWhirlwind,Execute" Row="2" Column="1"/>
+        </CardLayouts>
+        <SeparationRadius value="0.375"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="100"/>
+        <ScoreKill value="100"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="5"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAI value="Zealot"/>
+        <GlossaryCategory value="Unit/Category/ProtossUnits"/>
+        <GlossaryPriority value="20"/>
+        <GlossaryStrongArray value="Marauder"/>
+        <GlossaryStrongArray value="Zergling"/>
+        <GlossaryStrongArray value="Immortal"/>
+        <GlossaryWeakArray value="Hellion"/>
+        <GlossaryWeakArray value="Roach"/>
+        <GlossaryWeakArray value="Colossus"/>
+        <HotkeyCategory value="Unit/Category/ProtossStory"/>
+        <AIEvaluateAlias value="Zealot"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="20"/>
+            <ChanceArray index="Idle" value="70"/>
+            <ChanceArray index="Turn" value="10"/>
+        </Fidget>
+        <ReviveInfoBase>
+            <Charge Link="Zealot/Revive"/>
+            <Cooldown Link="Zealot/Revive"/>
+        </ReviveInfoBase>
+    </CUnit>
+</Catalog>

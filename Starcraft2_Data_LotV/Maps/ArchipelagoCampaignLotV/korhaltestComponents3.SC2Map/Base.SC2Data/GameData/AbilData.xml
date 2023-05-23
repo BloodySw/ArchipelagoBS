@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilTrain id="GatewayTrain">
+        <InfoArray index="Train9" Time="38">
+            <Button DefaultButtonFace="ZealotAiur" State="Restricted"/>
+            <Unit value="ZealotAiur"/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="38">
+            <Button DefaultButtonFace="ZealotShakuras" State="Restricted"/>
+            <Unit value="ZealotShakuras"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="38">
+            <Button DefaultButtonFace="ZealotPurifier" State="Restricted"/>
+            <Unit value="ZealotPurifier"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="42">
+            <Button DefaultButtonFace="StalkerShakuras" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="StalkerShakuras"/>
+        </InfoArray>
+        <InfoArray index="Train13" Time="42">
+            <Button DefaultButtonFace="StalkerAiur" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="Dragoon"/>
+        </InfoArray>
+        <InfoArray index="Train14" Time="42">
+            <Button DefaultButtonFace="WarpInAdept" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="Adept"/>
+        </InfoArray>
+        <InfoArray index="Train15" Time="37">
+            <Button DefaultButtonFace="SentryAiur" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="SentryAiur"/>
+        </InfoArray>
+        <InfoArray index="Train16" Time="37">
+            <Button DefaultButtonFace="SentryPurifier" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="SentryPurifier"/>
+        </InfoArray>
+        <InfoArray index="Train17" Time="37">
+            <Button DefaultButtonFace="Monitor" State="Restricted" Requirements="HaveCyberneticsCore"/>
+            <Unit value="Monitor"/>
+        </InfoArray>
+        <InfoArray index="Train18" Time="55">
+            <Button DefaultButtonFace="HighTemplarAiur" State="Restricted" Requirements="HaveTemplarArchives"/>
+            <Unit value="HighArchonTemplar"/>
+        </InfoArray>
+        <InfoArray index="Train19" Time="55">
+            <Button DefaultButtonFace="HighTemplarShakuras" State="Restricted" Requirements="HaveTemplarArchives"/>
+            <Unit value="HighTemplarShakuras"/>
+        </InfoArray>
+        <InfoArray index="Train20" Time="55">
+            <Button DefaultButtonFace="HighTemplarTaldarim" State="Restricted" Requirements="HaveTemplarArchives"/>
+            <Unit value="HighTemplarTaldarim"/>
+        </InfoArray>
+        <InfoArray index="Train21" Time="55">
+            <Button DefaultButtonFace="DarkTemplarShakuras" State="Restricted" Requirements="HaveDarkShrine"/>
+            <Unit value="DarkTemplarShakuras"/>
+        </InfoArray>
+        <InfoArray index="Train22" Time="55">
+            <Button DefaultButtonFace="DarkTemplarAiur" State="Restricted" Requirements="HaveDarkShrine"/>
+            <Unit value="DarkTemplarAiur"/>
+        </InfoArray>
+        <InfoArray index="Train23" Time="55">
+            <Button DefaultButtonFace="DarkTemplarTaldarim" State="Restricted" Requirements="HaveDarkShrine"/>
+            <Unit value="DarkTemplarTaldarim"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilEffectInstant id="SetMothership">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="CarrierTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetTempest">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Tempest2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetCarrier">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="CarrierAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetWrathwalker">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ColossusTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetReaver">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Reaver2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetColossus">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ColossusPurifier2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetArbiter">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Arbiter2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetDestroyer">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidRayTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetVoidRay">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidRayShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetMirage">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidPhoenixPurifier2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetCorsair">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Corsair2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetPhoenix">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PhoenixAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetAscendant">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HighTemplarTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetDarkArchon">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HighTemplarShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetHighTemplar">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HighTemplarAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetVanguard">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ImmortalTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetAnnihilator">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ImmortalShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetImmortal">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ImmortalAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetHavoc">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Monitor2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetEnergizer">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SentryPurifier2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetSentry">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SentryAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetBloodHunter">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkTemplarTaldarim2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetDarkTemplar">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkTemplarShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetAvenger">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkTemplarAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetDragoon">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StalkerAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetStalker">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StalkerShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetSentinel">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotPurifier2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetAiurZealot">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotAiur2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetCenturion">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotShakuras2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SetAdept">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DataCollection value="SetSentinel"/>
+        <Effect index="0" value="SetSentinel"/>
+        <AINotifyEffect value="SetSentinel"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="WarpInAdept2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="AP_VoidZealotWhirlwind">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="VoidZealotWhirlwindSet2"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="TransientPreferred" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="10"/>
+        </Cost>
+        <AutoCastRange value="1.5"/>
+        <AutoCastValidatorArray value="VoidZealotWhirlwindCheck"/>
+        <CastOutroTime value="1.2"/>
+        <UninterruptibleArray index="Cast" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidZealotWhirlwind"/>
+    </CAbilEffectInstant>
+</Catalog>
