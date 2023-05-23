@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementCountUpgrade id="AP_CountUpgradeCinematicModeCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_CinematicMode" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+</Catalog>

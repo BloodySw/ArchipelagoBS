@@ -1,23 +1,27 @@
-﻿Abil/Name/VoidZealotWhirlwind2=Whirlwind
-Behavior/Name/SOAHeroicShieldImmunity2=Guardian Shell
-Behavior/Name/SOAHeroicShieldWeakness2=Recently Protected
-Behavior/Tooltip/SOAHeroicShieldImmunity2=This unit is immune to damage.
-Behavior/Tooltip/SOAHeroicShieldWeakness2=This unit cannot be affected by Guardian Shell.
-Button/Name/VoidZealotWhirlwind2=Whirlwind
-Button/Tooltip/VoidZealotWhirlwind2=Deals <d ref="Effect,VoidZealotWhirlwindDamage,Amount/Behavior,VoidZealotWhirlwind,Period"/> damage per second to all nearby enemy units. Lasts <d ref="Behavior,VoidZealotWhirlwind,Duration"/> seconds.
-Button/Tooltip/ZealotAiur2=Aiur Faction<n/>Powerful melee warrior. Has Charge and Whirlwind abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+﻿Abil/Name/AP_VoidZealotWhirlwind=Whirlwind
+Behavior/Name/AP_SOAHeroicShieldImmunity=Guardian Shell
+Behavior/Name/AP_SOAHeroicShieldWeakness=Recently Protected
+Behavior/Tooltip/AP_SOAHeroicShieldImmunity=This unit is immune to damage.
+Behavior/Tooltip/AP_SOAHeroicShieldWeakness=This unit cannot be affected by Guardian Shell.
+Button/Name/AP_VoidZealotWhirlwind=Whirlwind
+Button/Tooltip/AP_VoidZealotWhirlwind=Deals <d ref="Effect,VoidZealotWhirlwindDamage,Amount/Behavior,VoidZealotWhirlwind,Period"/> damage per second to all nearby enemy units. Lasts <d ref="Behavior,VoidZealotWhirlwind,Duration"/> seconds.
+Button/Tooltip/AP_ZealotAiur=Aiur Faction<n/>Powerful melee warrior. Has Charge and Whirlwind abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Mod
-Effect/Name/SOAHeroicShieldInvulnerableApply2=SOAHeroic Shield Invulnerable Apply
-Effect/Name/SOAHeroicShieldWeaknessApply2=SOAHeroic Shield Weakness Apply
-Effect/Name/VoidZealotWhirlwindAB2=Void Zealot Whirlwind 
-Effect/Name/VoidZealotWhirlwindBehaviorSet2=Void Zealot Whirlwind Behavior Set
-Effect/Name/VoidZealotWhirlwindCancelMove2=Void Zealot Whirlwind Cancel Move
-Effect/Name/VoidZealotWhirlwindDamage2=Void Zealot Whirlwind Damage
-Effect/Name/VoidZealotWhirlwindMoveCP2=Void Zealot Whirlwind Move CP
-Effect/Name/VoidZealotWhirlwindMoveOrder2=Void Zealot Whirlwind Move Order
-Effect/Name/VoidZealotWhirlwindMoveSearch2=Void Zealot Whirlwind Move Search
-Effect/Name/VoidZealotWhirlwindSearch2=Void Zealot Whirlwind Search
-Effect/Name/VoidZealotWhirlwindSet2=Void Zealot Whirlwind Set
-Unit/Name/ZealotAiur2=Zealot
-Weapon/Name/SolariteReaper2=Solarite Reaper
+Effect/Name/AP_SOAHeroicShieldInvulnerableApply=SOAHeroic Shield Invulnerable Apply
+Effect/Name/AP_SOAHeroicShieldWeaknessApply=SOAHeroic Shield Weakness Apply
+Effect/Name/AP_VoidZealotWhirlwindAB=Void Zealot Whirlwind 
+Effect/Name/AP_VoidZealotWhirlwindBehaviorSet=Void Zealot Whirlwind Behavior Set
+Effect/Name/AP_VoidZealotWhirlwindCancelMove=Void Zealot Whirlwind Cancel Move
+Effect/Name/AP_VoidZealotWhirlwindDamage=Void Zealot Whirlwind Damage
+Effect/Name/AP_VoidZealotWhirlwindMoveCP=Void Zealot Whirlwind Move CP
+Effect/Name/AP_VoidZealotWhirlwindMoveOrder=Void Zealot Whirlwind Move Order
+Effect/Name/AP_VoidZealotWhirlwindMoveSearch=Void Zealot Whirlwind Move Search
+Effect/Name/AP_VoidZealotWhirlwindSearch=Void Zealot Whirlwind Search
+Effect/Name/AP_VoidZealotWhirlwindSet=Void Zealot Whirlwind Set
+Effect/Name/AP_ZealotAiurWeapon=Zealot Aiur Weapon
+Effect/Name/AP_ZealotAiurWeaponBurst=Zealot Aiur Weapon Burst
+Effect/Name/AP_ZealotAiurWeaponCleaveSet=Zealot Aiur Weapon Cleave Set
+Unit/Name/AP_ZealotAiur=Zealot
+Upgrade/Name/AP_CinematicMode=Cinematic Mode
+Weapon/Name/AP_SolariteReaper=Solarite Reaper

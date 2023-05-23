@@ -282,6 +282,7 @@ Trigger/Name/lib_2_C10309E3=AP Set Init Finished
 Trigger/Name/lib_2_CAB9275B=AP Clear Chat
 Trigger/Name/lib_2_CADD0845=TurnOnHavoc
 Trigger/Name/lib_2_CBFD4F41=AP Rainbow Cycle
+Trigger/Name/lib_2_D0559C25=Initialization
 Trigger/Name/lib_2_D1EBF7FF=TurnOnMirage
 Trigger/Name/lib_2_D3CCDD65=TurnOnArbiter
 Trigger/Name/lib_2_E25D3A1B=TurnOnStalker

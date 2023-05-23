@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="AP_CinematicMode">
+        <Flags index="UpgradeCheat" value="0"/>
+        <AffectedUnitArray value="Gateway"/>
+        <AffectedUnitArray value="WarpGate"/>
+        <AffectedUnitArray value="Stargate"/>
+        <AffectedUnitArray value="RoboticsFacility"/>
+        <AffectedUnitArray value="RoboticsBay"/>
+        <AffectedUnitArray value="PhotonCannon"/>
+        <AffectedUnitArray value="DarkShrine"/>
+        <AffectedUnitArray value="Forge"/>
+        <AffectedUnitArray value="TemplarArchive"/>
+        <AffectedUnitArray value="FleetBeacon"/>
+        <AffectedUnitArray value="StargateWarp"/>
+        <AffectedUnitArray value="RoboticsFacilityWarp"/>
+        <AffectedUnitArray value="AP_ZealotAiur"/>
+    </CUpgrade>
+</Catalog>

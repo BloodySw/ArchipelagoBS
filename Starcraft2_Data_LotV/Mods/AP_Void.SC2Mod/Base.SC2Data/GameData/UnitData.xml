@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
-    <CUnit id="ZealotAiur2">
+    <CUnit id="AP_ZealotAiur">
         <DeathRevealRadius value="3"/>
         <ReviveType value="Zealot"/>
         <Race value="Prot"/>
@@ -43,10 +43,10 @@
         <AbilArray Link="Warpable"/>
         <AbilArray Link="ProgressRally"/>
         <AbilArray Link="Charge"/>
-        <AbilArray Link="VoidZealotWhirlwind2"/>
+        <AbilArray Link="AP_VoidZealotWhirlwind"/>
         <BehaviorArray Link="ZealotRespawnDeath2"/>
-        <BehaviorArray Link="SOAHeroicShieldProcBuff2"/>
-        <WeaponArray Link="SolariteReaper2"/>
+        <BehaviorArray Link="AP_SOAHeroicShieldProcBuff"/>
+        <WeaponArray Link="AP_SolariteReaper"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -55,7 +55,7 @@
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
             <LayoutButtons Face="Charge" Type="AbilCmd" AbilCmd="Charge,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="VoidZealotWhirlwind2" Type="AbilCmd" AbilCmd="VoidZealotWhirlwind2,0" Row="2" Column="1"/>
+            <LayoutButtons Face="AP_VoidZealotWhirlwind" Type="AbilCmd" AbilCmd="AP_VoidZealotWhirlwind,Execute" Row="2" Column="1"/>
         </CardLayouts>
         <SeparationRadius value="0.375"/>
         <InnerRadius value="0.375"/>

@@ -272,6 +272,7 @@ void lib2_gf_AllowAllUnits (bool lp_Allow);
 void lib2_gf_AllowAllUnitLocking (bool lp_Allow);
 
 // Trigger Declarations
+trigger lib2_gt_Initialization;
 trigger lib2_gt_ArchipelagoInitialization;
 trigger lib2_gt_APArchipelagoTechUpdate;
 trigger lib2_gt_APArchipelagoColorUpdate;
@@ -806,6 +807,25 @@ void lib2_gf_AllowAllUnitLocking (bool lp_Allow) {
 }
 
 // Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: Initialization
+//--------------------------------------------------------------------------------------------------
+bool lib2_gt_Initialization_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib2_gt_Initialization_Init () {
+    lib2_gt_Initialization = TriggerCreate("lib2_gt_Initialization_Func");
+    TriggerAddEventMapInit(lib2_gt_Initialization);
+}
+
 //--------------------------------------------------------------------------------------------------
 // Trigger: Archipelago Initialization
 //--------------------------------------------------------------------------------------------------
@@ -1690,12 +1710,6 @@ void lib2_gt_TurnOnSentinel_Init () {
 //--------------------------------------------------------------------------------------------------
 bool lib2_gt_InitTech_Func (bool testConds, bool runActions) {
     // Automatic Variable Declarations
-    // Actions
-    if (!runActions) {
-        return true;
-    }
-
-    Wait(5.0, c_timeGame);
     return true;
 }
 
@@ -1706,6 +1720,7 @@ void lib2_gt_InitTech_Init () {
 }
 
 void lib2_InitTriggers () {
+    lib2_gt_Initialization_Init();
     lib2_gt_ArchipelagoInitialization_Init();
     lib2_gt_APArchipelagoTechUpdate_Init();
     lib2_gt_APArchipelagoColorUpdate_Init();

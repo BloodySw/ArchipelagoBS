@@ -1,1 +1,1 @@
-﻿Button/Hotkey/VoidZealotWhirlwind2=E
+﻿Button/Hotkey/AP_VoidZealotWhirlwind=E
