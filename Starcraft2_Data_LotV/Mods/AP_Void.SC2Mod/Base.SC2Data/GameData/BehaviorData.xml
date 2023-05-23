@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="SOAHeroicShieldImmunity2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <ExpireEffect value="SOAHeroicShieldWeaknessApply2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAHeroicShieldProcBuff2">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-shield-protoss-plasmashields.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HaveSOAHeroicShield"/>
+        <RemoveValidatorArray value="NotHaveHeroicShieldCleanUp"/>
+        <DamageResponse Fatal="1" Handled="SOAHeroicShieldInvulnerableApply2" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAHeroicShieldWeakness2">
+        <Alignment value="Negative"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-tomahawkpowercell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="60"/>
+        <Modification>
+            <BehaviorLinkDisableArray value="SOAHeroicShieldProcBuff"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidZealotWhirlwind2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CasterNotStunned"/>
+        <Duration value="3"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="VoidZealotWhirlwindBehaviorSet2"/>
+        <FinalEffect value="VoidZealotWhirlwindCancelMove2"/>
+        <Modification>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <WeaponArray Link="VoidZealotWhirlwindFakeWeapon"/>
+            <WeaponDisableArray value="PsiBlades"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotRespawnDeath2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Fatal="1" Handled="ZealotRespawnDeathSet">
+            <Chance value="0.5"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+</Catalog>
