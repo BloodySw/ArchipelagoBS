@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="AP_250mmStrikeCannons">
+        <Icon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_330mmBarrageCannons">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-330mmbarragecannon.dds"/>
+        <Hotkey value="Button/Hotkey/250mmStrikeCannons"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="250mmStrikeCannons"/>
+    </CButton>
+    <CButton id="AP_MedicHeal">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_StabilizerMedPacks">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-stabilizermedpacks.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_IncineratorNozzles">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-bearclawnozzles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_JuggernautPlating">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-juggernautplating.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_AblativeScales">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-kineticfoam.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_JackhammerConcussionGrenade">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-jackhammerconcussion.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_D8Charge">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_U238Rounds">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-u238rounds.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_G4Charge">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_InfernalPreIgniter">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-infernalpreigniter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_TwinLinkedFlameThrowers">
+        <Icon value="Assets\Textures\btn-upgrade-terran-twin-linkedflamethrower.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-twin-linkedflamethrower.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_CerberusMines">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-cerberusmine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ResearchSpiderMinesSC1">
+        <Icon value="Assets\Textures\btn-unit-terran-spidermine.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-spidermine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpiderMine">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-spidermine.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-ability-terran-spidermine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpiderMineReplenish">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-replenishablemagazine.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-spidermine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Vulture">
+        <Icon value="Assets\Textures\btn-unit-terran-vulture.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vulture.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_AresClassWeaponsSystem">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-charonboosters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_MultiLockTargetingSystem">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-multilocktargetingsystem.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_FireOnTheMove">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-fireonthemove.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-ability-terran-fireonthemove.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ShapedHull">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-shapedhull.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_TriLithiumPowerCells">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-trilithiumpowercell.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_MaelstromRounds">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-maelstromrounds.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ShapedBlast">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-shapedblast.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_Heal">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_AdvancedHealingAI">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-advancedHealingAI.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_RapidDeploymentTubes">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-rapiddeployment.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_DisplacementField">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-cloakdistortionfield.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_SingularityAnchor">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-tomahawkpowercell.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_WraithCloakOff">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-Decloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-Decloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_WraithCloakOn">
+        <Icon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_AresClassWeaponsSystemviking">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-jotunboosters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_RipwaveMissiles">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-ripwavemissiles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_CrossSpectrumDampeners">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-crossspectrumdampeners.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ShockwaveMissilePattern">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-clusterwarheads.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_CloakOnBanshee">
+        <Icon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="Cloak"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_DefensiveMatrix">
+        <Icon value="Assets\Textures\btn-ability-terran-defensivematrix.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-defensivematrix.dds"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_MissilePods">
+        <Icon value="Assets\Textures\btn-ability-terran-hurricane.dds"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_YamatoGun">
+        <Icon value="Assets\Textures\btn-ability-terran-yamatogun-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-yamatogun-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_AttackGhost">
+        <Name value="Button/Name/Attack"/>
+        <Tooltip value="Button/Tooltip/Attack"/>
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertName value="Button/Name/Attack"/>
+        <AlertTooltip value="Button/Tooltip/Attack"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <Hotkey value="Button/Hotkey/Attack"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Attack"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_CloakOnGhost">
+        <Icon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="CloakOnBanshee"/>
+        <HotkeySet value="Cloak"/>
+    </CButton>
+    <CButton id="AP_CriusSuit">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-criussuit.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_EMP">
+        <Icon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_GhostHoldFire">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="HoldFire"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_NukeCalldown">
+        <Icon value="Assets\Textures\btn-ability-terran-nuclearstrike-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-nuclearstrike-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_OcularImplants">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_PermanentlyCloakedGhost">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-Cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Snipe">
+        <Icon value="Assets\Textures\btn-ability-terran-snipe-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-snipe-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_WeaponsFree">
+        <Icon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="HoldFire"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_CloakOnSpectre">
+        <Icon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="CloakOnBanshee"/>
+        <HotkeySet value="Cloak"/>
+    </CButton>
+    <CButton id="AP_NyxClassCloakingModule">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-nyxcloakingclassmodule.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_Obliterate">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-psioniclash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-psioniclash.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_PermanentlyCloakedSpectre">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-Cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpecterPsiRound">
+        <Icon value="Assets\Textures\btn-ability-terran-snipe-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-snipe-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Spectre">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-spectre.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-spectre.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpectreConsumption">
+        <Icon value="Assets\Textures\btn-ability-zerg-plague.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpectreHoldFire">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="HoldFire"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_SpectreMindSplatter">
+        <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SpectreNukeCalldown">
+        <Icon value="Assets\Textures\btn-ability-terran-nuclearstrike-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-nuclearstrike-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_SpectreShadowClones">
+        <Icon value="Assets\Textures\btn-ability-zerg-disguise.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_SpectreWeaponsFree">
+        <Icon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="HoldFire"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="AP_UltrasonicPulse">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-ultrasonicpulse.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ImmortalityProtocol">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-immortalityprotocol.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_Thor">
+        <Icon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BuildAutoTurret">
+        <Icon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BuildPointDefenseDrone">
+        <Icon value="Assets\Textures\btn-unit-terran-targetingdrone.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-targetingdrone.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HunterSeekerMissile">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-HunterMissile-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-HunterMissile-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BuildScienceVessel">
+        <Icon value="Assets\Textures\btn-unit-terran-sciencevessel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-sciencevessel.dds"/>
+        <Hotkey value="Button/Hotkey/AP_ScienceVessel"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value=""/>
+    </CButton>
+    <CButton id="AP_Irradiate">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-irradiate.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-ability-terran-irradiate.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_NanoRepair">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CloakOnPredator">
+        <Icon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-cloak-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Predator">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-predator.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-predator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_RetributionField">
+        <Icon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HerculesLoad">
+        <Icon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_HerculesUnloadAll">
+        <Icon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_RapidDeployment">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-rapiddeployment.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_Liberator">
+        <Icon value="Assets\Textures\btn-unit-terran-liberator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-liberator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_LiberatorAAMode">
+        <TooltipFlags index="ShowLevel" value="0"/>
+        <Icon value="Assets\Textures\btn-ability-terran-liberator-aamode.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-liberator-aamode.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="LiberatorModes"/>
+    </CButton>
+    <CButton id="AP_LiberatorAGMode">
+        <TooltipFlags index="ShowLevel" value="0"/>
+        <Icon value="Assets\Textures\btn-ability-terran-liberator-agmode.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-liberator-agmode.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="LiberatorModes"/>
+    </CButton>
+    <CButton id="AP_LiberatorAGRangeUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-terran-advanceballistics.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-advanceballistics.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_ResearchLiberatorAGMode">
+        <Icon value="Assets\Textures\btn-upgrade-terran-liberator-agmode.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-liberator-agmode.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SiegeProtocol">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-maelstromrounds.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value=""/>
+    </CButton>
+    <CButton id="AP_ValkyrieSCBW">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-valkyrie@scbw.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-valkyrie@scbw.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value=""/>
+        <DefaultButtonLayout Column="2"/>
+    </CButton>
+    <CButton id="AP_WidowMine">
+        <Icon value="Assets\Textures\btn-unit-terran-widowmine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-widowmine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_WidowMineAttack">
+        <TooltipFlags index="ShowHotkey" value="0"/>
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value=""/>
+        <SimpleDisplayText value="SimpleDisplay/AttackBuilding"/>
+    </CButton>
+    <CButton id="AP_WidowMineBioSplash">
+        <Icon value="Assets\Textures\btn-ability-terran-unstablepayload.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unstablepayload.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_WidowMineBurrow">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-ActivateMine.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-ActivateMine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="WidowMineModes"/>
+    </CButton>
+    <CButton id="AP_WidowMineConcealment">
+        <Icon value="Assets\Textures\btn-ability-terran-widowminehidden.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-widowminehidden.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_WidowMineUnburrow">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-DeactivateMine.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-DeactivateMine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="WidowMineModes"/>
+    </CButton>
+    <CButton id="AP_DrillClaws">
+        <Icon value="Assets\Textures\BTN-Upgrade-Terran-ResearchDrillingClaws.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Terran-ResearchDrillingClaws.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BuildCyclone">
+        <Icon value="Assets\Textures\btn-unit-terran-cyclone.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-cyclone.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneLockOnAir">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneLockOnDamageUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-terran-magfieldaccelerator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-magfieldaccelerator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneMissiles">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-hellstormbatteries.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-hellstormbatteries.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneRapidFireLaunchers">
+        <Icon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneResearchLockOnAir">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CycloneResearchLockOnDamageUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-terran-magfieldaccelerator.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-magfieldaccelerator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_LockOn">
+        <Icon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_LockOnAir">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_LockOnCancel">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Cancel"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_MagFieldLaunchers">
+        <Icon value="Assets\Textures\btn-upgrade-terran-cyclonerangeupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-cyclonerangeupgrade.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_ResearchCycloneRapidFireLaunchers">
+        <Icon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_ResearchMagFieldLaunchers">
+        <Icon value="Assets\Textures\btn-upgrade-terran-cyclonerangeupgrade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-cyclonerangeupgrade.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireKelmorianMiners">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-marinemercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireKelmorianMinersPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-marinemercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDevilDogs">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-firebatmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-firebat.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDevilDogsPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-firebatmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-firebat.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireHammerSecurities">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-maraudermercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireHammerSecuritiesPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-maraudermercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireSpartanCompany">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireSpartanCompanyPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireSiegeBreakers">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireSiegeBreakersPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireHelsAngels">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-vikingmercenary-fighter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireHelsAngelsPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-vikingmercenary-fighter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDuskWing">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-bansheemercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-banshee.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDuskWingPH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-bansheemercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-banshee.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDukesRevenge">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-battlecruiserloki.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-battlecruiserloki.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_HireDukesRevengePH">
+        <Icon value="AP\Assets\Textures\btn-unit-terran-battlecruiserloki.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-unit-terran-battlecruiserloki.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_AutomatedRefinery">
+        <Icon value="AP\Assets\Textures\btn-building-terran-refineryautomated.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-building-terran-refinery.dds"/>
+        <Hotkey value="Button/Hotkey/Refinery"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="Refinery"/>
+    </CButton>
+    <CButton id="AP_MicroFiltering">
+        <Icon value="Assets\Textures\btn-ability-terran-microfiltering.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-microfiltering.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_SupplyDepotDrop">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <Hotkey value="Button/Hotkey/SupplyDepot"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="SupplyDepot"/>
+    </CButton>
+    <CButton id="AP_Firebat">
+        <Icon value="Assets\Textures\btn-unit-terran-firebat.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-firebat.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Ghost">
+        <Icon value="Assets\Textures\btn-unit-terran-ghost.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-ghost.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Marauder">
+        <Icon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Marine">
+        <Icon value="Assets\Textures\btn-unit-terran-marine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Medic">
+        <Icon value="Assets\Textures\btn-unit-terran-medic.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-medic.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Reaper">
+        <Icon value="Assets\Textures\btn-unit-terran-reaper.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-reaper.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_TechReactor">
+        <Icon value="AP\Assets\Textures\btn-building-terran-techreactor.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-building-terran-techreactor.dds"/>
+        <Hotkey value="Button/Hotkey/AP_TechReactorAI"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TechReactorAI"/>
+    </CButton>
+    <CButton id="AP_PerditionTurret">
+        <Icon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_PsiDisruption">
+        <Icon value="AP\Assets\Textures\btn-ability-terran-psidisruption.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_BuildFortifiedBunker">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-neosteelframe.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <Hotkey value="Button/Hotkey/Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="Bunker"/>
+    </CButton>
+    <CButton id="AP_Bunker">
+        <Icon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BunkerFortified">
+        <Icon value="AP\Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <Hotkey value="Button/Hotkey/Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="Bunker"/>
+    </CButton>
+    <CButton id="AP_FortifiedBunker">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-neosteelframe.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_NeoSteelFrame">
+        <Icon value="AP\Assets\Textures\btn-techupgrade-terran-neosteelbunker.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ProjectileAccelerators">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-projectileaccelerator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ShrikeTurret">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-shriketurret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_StimRedirect">
+        <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="Stim"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_HellstormMissileBatteries">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-hellstormbatteries.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_ReinforcedSuperstructure">
+        <Icon value="AP\Assets\Textures\btn-techupgrade-terran-titaniumhousing.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_HiveMindEmulator">
+        <Icon value="AP\Assets\Textures\btn-building-terran-hivemindemulator.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-building-terran-hivemindemulator.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_MindControl">
+        <Icon value="Assets\Textures\btn-ability-terran-scannersweep-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Diamondback">
+        <Icon value="Assets\Textures\btn-unit-terran-cobra.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-cobra.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Goliath">
+        <Icon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Hellion">
+        <Icon value="Assets\Textures\btn-unit-terran-hellion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-hellion.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SiegeTank">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Banshee">
+        <Icon value="Assets\Textures\btn-unit-terran-banshee.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-banshee.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Battlecruiser">
+        <Icon value="Assets\Textures\btn-unit-terran-battlecruiser.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-battlecruiser.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_BuildHercules">
+        <Icon value="Assets\Textures\btn-unit-terran-hercules.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-hercules.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Medivac">
+        <Icon value="Assets\Textures\btn-unit-terran-medivac.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-medivac.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Raven">
+        <Icon value="Assets\Textures\btn-unit-terran-raven.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-raven.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Reactor">
+        <Icon value="Assets\Textures\btn-building-terran-reactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-reactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_VikingFighter">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Wraith">
+        <Icon value="Assets\Textures\btn-unit-terran-wraith.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-wraith.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_NukeArm">
+        <Icon value="Assets\Textures\btn-ability-terran-armnuke.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-armnuke.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_AttackBuildingPFort">
+        <Name value="Button/Name/AttackBuilding"/>
+        <Tooltip value="Button/Tooltip/AttackBuilding"/>
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertName value="Button/Name/AttackBuilding"/>
+        <AlertTooltip value="Button/Tooltip/AttackBuilding"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <Hotkey value="Button/Hotkey/AttackBuilding"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Attack"/>
+    </CButton>
+    <CButton id="AP_CommandCenterUnloadAll">
+        <Icon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_PlanetaryFortressLoad">
+        <Icon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="CommandCenterLoad"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AP_StopPlanetaryFortress">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_UpgradeToPlanetaryFortress">
+        <Icon value="Assets\Textures\btn-building-terran-planetaryfortress.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-planetaryfortress.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CalldownMULE">
+        <Icon value="Assets\Textures\BTN-Unit-Terran-mule.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Unit-Terran-mule.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CommandCenterOrbRelay">
+        <Icon value="Assets\Textures\btn-building-terran-surveillancestation.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-surveillancestation.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_GatherMULE">
+        <Icon value="Assets\Textures\btn-ability-terran-gather.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-gather.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="GatherProt"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Gather"/>
+    </CButton>
+    <CButton id="AP_Scan">
+        <Icon value="Assets\Textures\btn-ability-terran-scannersweep-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-scannersweep-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SupplyDrop">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-CalldownExtraSupplies-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-CalldownExtraSupplies-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Armory">
+        <Icon value="Assets\Textures\btn-building-terran-armory.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-armory.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Barracks">
+        <Icon value="Assets\Textures\btn-building-terran-barracks.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-barracks.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_CommandCenter">
+        <Icon value="Assets\Textures\btn-building-terran-commandcenter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-commandcenter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_EngineeringBay">
+        <Icon value="Assets\Textures\btn-building-terran-engineeringbay.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-engineeringbay.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Factory">
+        <Icon value="Assets\Textures\btn-building-terran-factory.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-factory.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_FusionCore">
+        <Icon value="Assets\Textures\btn-building-terran-fusioncore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-fusioncore.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_GhostAcademy">
+        <Icon value="Assets\Textures\btn-building-terran-ghostacademy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-ghostacademy.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_MercCompound">
+        <Icon value="Assets\Textures\btn-building-terran-merccompound.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-merccompound.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_MissileTurret">
+        <Icon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_PsiDisruptor">
+        <Icon value="AP\Assets\Textures\btn-building-terran-sigmaprojector.dds"/>
+        <AlertIcon value="AP\Assets\Textures\btn-building-terran-sigmaprojector.dds"/>
+        <Hotkey value="Button/Hotkey/AP_PsiDisrupter"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value=""/>
+    </CButton>
+    <CButton id="AP_Refinery">
+        <Icon value="Assets\Textures\btn-building-terran-refinery.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-refinery.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SensorTower">
+        <Icon value="Assets\Textures\btn-building-terran-sensordome.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-sensordome.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_Starport">
+        <Icon value="Assets\Textures\btn-building-terran-starport.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-starport.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_SupplyDepot">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AP_TerranBuild">
+        <Icon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryArmorVanadiumPlatingLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryArmorLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryArmorVanadiumPlatingLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryArmorLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryArmorVanadiumPlatingLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryArmorLevel3"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryWeaponsUltraCapacitorsLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryWeaponsLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryWeaponsUltraCapacitorsLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryWeaponsLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranInfantryWeaponsUltraCapacitorsLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranInfantryWeaponsLevel3"/>
+    </CButton>
+    <CButton id="AP_TerranShipPlatingVanadiumPlatingLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipPlatingLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipPlatingLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranShipPlatingVanadiumPlatingLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipPlatingLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipPlatingLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranShipPlatingVanadiumPlatingLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipPlatingLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipPlatingLevel3"/>
+    </CButton>
+    <CButton id="AP_TerranShipWeaponsUltraCapacitorsLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipWeaponsLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranShipWeaponsUltraCapacitorsLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipWeaponsLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranShipWeaponsUltraCapacitorsLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranShipWeaponsLevel3"/>
+    </CButton>
+    <CButton id="AP_TerranVehiclePlatingVanadiumPlatingLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehiclePlatingLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranVehiclePlatingVanadiumPlatingLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehiclePlatingLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranVehiclePlatingVanadiumPlatingLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehiclePlatingLevel3"/>
+    </CButton>
+    <CButton id="AP_TerranVehicleWeaponsUltraCapacitorsLevel1">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel1.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel1"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehicleWeaponsLevel1"/>
+    </CButton>
+    <CButton id="AP_TerranVehicleWeaponsUltraCapacitorsLevel2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehicleWeaponsLevel2"/>
+    </CButton>
+    <CButton id="AP_TerranVehicleWeaponsUltraCapacitorsLevel3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel3"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TerranVehicleWeaponsLevel3"/>
+    </CButton>
+    <CButton id="AP_VoidZealotWhirlwind">
+        <Icon value="Assets\Textures\BTN-Ability-Protoss-Whirlwind.dds"/>
+    </CButton>
+</Catalog>

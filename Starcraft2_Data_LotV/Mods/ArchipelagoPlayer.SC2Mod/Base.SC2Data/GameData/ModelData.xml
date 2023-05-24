@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="AP_Medic" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Medic\Medic.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid03"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid03"/>
+    </CModel>
+    <CModel id="AP_MedicDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\MedicDeath\MedicDeath.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_MedicHealBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\MedivacBeam\MedivacBeam.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="AP_MedicHealModel" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\MedicHeal\MedicHeal.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_MedicKillSquadDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\MedicKillSquadDeath\MedicKillSquadDeath.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_MedicPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\MedicPortrait\MedicPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\MedicPortrait.fxa"/>
+        <Image value="Assets\Textures\MedicPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_Firebat" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Firebat\Firebat.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="AP_FirebatAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\FirebatFireSprite\FirebatFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="1.000000,1.500000,1.000000"/>
+        <ScaleMin value="1.000000,1.500000,1.000000"/>
+    </CModel>
+    <CModel id="AP_FirebatBunkerAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\FirebatFireSprite\FirebatFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="1.000000,3.000000,1.000000"/>
+        <ScaleMin value="1.000000,3.000000,1.000000"/>
+    </CModel>
+    <CModel id="AP_FirebatDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\FirebatDeath\FirebatDeath.m3"/>
+        <LowQualityModel value="TerranSmallUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_FirebatPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\FirebatPortrait\FirebatPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\FirebatPortrait.fxa"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\FirebatPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_ImpactModelFlames" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_MedicKillSquad" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\MedicKillSquad\MedicKillSquad.m3"/>
+        <Lighting value="Medic"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid03"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid03"/>
+    </CModel>
+    <CModel id="AP_D8Charge" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\MagneticMine\MagneticMine.m3"/>
+        <LowQualityModel value="D8ChargeLow"/>
+        <SelectionLayer value="3"/>
+    </CModel>
+    <CModel id="AP_D8ChargeAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\TerranSmallBlast\TerranSmallBlast.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_D8ChargeReleaseImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ReaperJumpLandDown\ReaperJumpLandDown.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_D8ChargeWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MagneticMineMissile\MagneticMineMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_D8ClusterBomb" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\MagneticMine\MagneticMine.m3"/>
+        <LowQualityModel value="AP_D8ClusterBombLow"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="3"/>
+    </CModel>
+    <CModel id="AP_D8ClusterBombAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\TerranSmallBlast\TerranSmallBlast.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_D8ClusterBombLow" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\MagneticMine\MagneticMine_Low.m3"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="3"/>
+    </CModel>
+    <CModel id="AP_D8ClusterBombReleaseImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ReaperJumpLandDown\ReaperJumpLandDown.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_D8ClusterBombWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MagneticMineMissile\MagneticMineMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="AP_NanoRepairBeamImpact" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\NanoRepairBeamImpact\NanoRepairBeamImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpiderMine" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\SpiderMine\SpiderMine.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow02"/>
+        <Radius value="0.250000"/>
+        <SelectionLayer value="3"/>
+        <SelectionRadius value="0.250000"/>
+        <ShadowRadius value="0.250000"/>
+        <TechPurchaseCamera value="Star2CameraLow02"/>
+        <UnitGlossaryCamera value="Star2CameraLow02"/>
+    </CModel>
+    <CModel id="AP_SpiderMineExplosion" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath.m3"/>
+        <LowQualityModel value="AP_SpiderMineExplosionLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="AP_SpiderMinePlacement" parent="Placement" Race="Terran">
+        <Model value="Assets\Effects\Terran\SpiderMinePlacement\SpiderMinePlacement.m3"/>
+        <LowQualityModel value="AP_SpiderMine"/>
+        <SelectionRadius value="0.250000"/>
+        <ShadowRadius value="0.250000"/>
+    </CModel>
+    <CModel id="AP_Vulture" parent="Unit">
+        <Model value="Assets\Units\Terran\Vulture\Vulture.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid07"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.722000"/>
+        <ShadowRadius value="0.722000"/>
+        <TechPurchaseCamera value="TechPurchaseVehicle"/>
+        <Tipability value="1.000000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid07"/>
+    </CModel>
+    <CModel id="AP_VultureAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileImpact\VikingFighterMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_VultureAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\GhostFireSprite\GhostFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_VultureDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\VultureDeath\VultureDeath.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+    </CModel>
+    <CModel id="AP_VulturePortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\VulturePortrait\VulturePortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\VulturePortrait.fxa"/>
+        <Image value="Assets\Textures\VulturePortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_VultureSpiderMineAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="AP_SpiderMineAttackImpact"/>
+    </CModel>
+    <CModel id="AP_SpiderMineAttackImpact" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_VultureWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\GoliathMissile\GoliathMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_Goliath" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Goliath\Goliath.m3"/>
+        <AttachProps Id="Ref_TurretZ">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 02">
+            <Keys index="SetB" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="SetB" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 04">
+            <Keys index="SetB" value="4"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 05">
+            <Keys index="SetB" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 06">
+            <Keys index="SetB" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 07">
+            <Keys index="SetB" value="5"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh09"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="0.999700"/>
+        <ShadowRadius value="0.999700"/>
+        <TechPurchaseCamera value="TechPurchaseGoliath"/>
+        <TextureDeclares Prefix="Goliath_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraHigh09"/>
+        <Variations Probability="1">
+            <TextureExpressionsForEditor Slot="main" Expression="RequireAll diffuse"/>
+        </Variations>
+    </CModel>
+    <CModel id="AP_GoliathAWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\GoliathAirMissile\GoliathAirMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_GoliathAirAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\GoliathAirMissileImpact\GoliathAirMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_GoliathAirAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileLaunch\VikingFighterMissileLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_GoliathDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\GoliathDeath\GoliathDeath.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="GoliathDeathFXA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="AP_Goliath_DeathFXA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="GoliathDeathFXA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="AP_Goliath_DeathFXA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="GoliathDeathFXB"/>
+            <Type value="Sound"/>
+            <Time value="2.000000"/>
+            <Payload value="AP_Goliath_DeathFXB"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="GoliathDeathFXB"/>
+            <Type value="Sound"/>
+            <Time value="0.870000"/>
+            <Payload value="AP_Goliath_DeathFXB"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.999700"/>
+        <ShadowRadius value="0.999700"/>
+        <TextureDeclares Prefix="Goliath_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="AP_GoliathGroundAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponImpact\VikingAssaultWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_GoliathGroundAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponLaunch\VikingAssaultWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_GoliathPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\GoliathPortrait\GoliathPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\GoliathPortrait.fxa"/>
+        <Image value="Assets\Textures\GoliathPortrait_Static.dds"/>
+        <Lighting value="GoliathPortrait"/>
+    </CModel>
+    <CModel id="AP_Diamondback" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Diamondback\Diamondback.m3"/>
+        <Events>
+            <Anim value="Stand,Morph,End"/>
+            <Name value="DiamondbackCapture"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Diamondback_Capture"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid07"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.866400"/>
+        <ShadowRadius value="0.866400"/>
+        <TechPurchaseCamera value="TechPurchaseDiamondback"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="1.000000"/>
+        <TipabilityWidth value="0.800000"/>
+        <UnitGlossaryCamera value="Star2CameraMid07"/>
+    </CModel>
+    <CModel id="AP_DiamondbackAttackBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackBeam\DiamondbackBeam.m3"/>
+        <LowQualityModel value="AP_DiamondbackAttackBeamLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DiamondbackAttackBeamCharged" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackWeaponChargedBeam\DiamondbackWeaponChargedBeam.m3"/>
+        <LowQualityModel value="AP_DiamondbackAttackBeamChargedLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DiamondbackAttackBeamChargedLow" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackWeaponChargedBeam\DiamondbackWeaponChargedBeam_Low.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DiamondbackAttackBeamLow" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackBeam\DiamondbackBeam_Low.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DiamondbackCharged" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\DiamondbackWeaponChargedLaunch\DiamondbackWeaponChargedLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DiamondbackDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\DiamondbackDeath\DiamondbackDeath.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_DiamondbackPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\DiamondbackPortrait\DiamondbackPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\DiamondbackPortrait.fxa"/>
+        <Image value="Assets\Textures\DiamondbackPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_Wraith" parent="Unit">
+        <Model value="Assets\Units\Terran\Wraith\Wraith.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow04"/>
+        <Radius value="0.625000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+        <TechPurchaseCamera value="TechPurchaseStarship"/>
+        <Tipability value="0.750000"/>
+        <UnitGlossaryCamera value="Star2CameraLow04"/>
+    </CModel>
+    <CModel id="AP_WraithAirAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\WraithMissileImpact\WraithMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithAirWeaponLeft" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\WraithMissile\WraithMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithAirWeaponRight" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\WraithMissile\WraithMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\WraithDeath\WraithDeath.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+        <Radius value="0.625000"/>
+    </CModel>
+    <CModel id="AP_WraithEvade" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\DisplacementFieldImpact\DisplacementFieldImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithGroundAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\WraithLaserMissileImpact\WraithLaserMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithGroundWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\WraithLaserMissile\WraithLaserMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WraithPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\WraithPortrait\WraithPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\WraithPortrait.fxa"/>
+        <Image value="Assets\Textures\WraithPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_BansheeCarpetBombImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\BansheeMissileImpact\BansheeMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DefensiveMatrix" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DefensiveMatrixShield\DefensiveMatrixShield.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DefensiveMatrixModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserDefensiveMatrix\BattlecruiserDefensiveMatrix.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Radius value="2.000000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="AP_HurricaneMissile" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MissilePodMissile\MissilePodMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_MindBlastStun" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\UnitStunImpact\UnitStunImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ObliterateExplosion" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\PsionicLashImpact\PsionicLashImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpecterAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\GhostWeaponImpact\GhostWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpecterAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\GhostWeaponLaunch\GhostWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpecterDeath" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Terran\SpectreDeath\SpectreDeath.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_Spectre" parent="Unit">
+        <Model value="Assets\Units\Terran\Spectre\Spectre.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeCollateralFire" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\FirebatHitSprite\FirebatHitSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeCursorSplat" parent="UI">
+        <Model value="Assets\UI\Cursors\NukeCursor1\NukeCursor1.m3"/>
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeDrop" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeFalling\NukeFalling.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeExplode" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\Nuke\Nuke.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeIndicator" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTargetTactical\GhostLaseTargetTactical.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeLaunch" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeRising\NukeRising.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectreNukeTarget" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTarget\GhostLaseTarget.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpectrePortrait" parent="Portrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\SpectrePortrait\SpectrePortrait.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\SpectrePortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_ConsumptionImpactModel" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\EnergyTransferImpact\EnergyTransferImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="ConsumptionModel"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="AP_ConsumptionLaunchModel" parent="LaunchFX">
+        <Model value="Assets\Effects\Protoss\EnergyTransferLaunch\EnergyTransferLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="AP_VoodooLockdownEffect" parent="PersistentSpellFX">
+        <EditorCategories value="Race:Terran"/>
+        <Model value="Assets\Effects\Terran\LockDown\LockDown.m3"/>
+    </CModel>
+    <CModel id="AP_MindSplatterBuff" parent="BuffFX">
+        <Model value="Assets\Effects\Terran\DiamondbackZapBuff\DiamondbackZapBuff.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_UltrasonicPulseAttackImpactEffect" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\UltraSonicMissileImpact\UltraSonicMissileImpact.m3"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_UltrasonicPulseWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\UltraSonicMissile\UltraSonicMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ObliterateCasterChannel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\PsionicLashCasterLaunch\PsionicLashCasterLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ThorWreckage" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\ThorWrecked\ThorWrecked.m3"/>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 02">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 04">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 05">
+            <Keys index="CustomA" value="1"/>
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 06">
+            <Keys index="SetA" value="4"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 07">
+            <Keys index="CustomA" value="1"/>
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 08">
+            <Keys index="SetB" value="4"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 15">
+            <Keys index="SetA" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 16">
+            <Keys index="SetA" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 17">
+            <Keys index="SetA" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 18">
+            <Keys index="SetA" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Center">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <Events>
+            <Anim value="Stand,Morph,Start"/>
+            <Name value="ThorImmortalityProtocolBirth"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolBirth"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,End"/>
+            <Name value="ThorImmortalityProtocolDeath"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolDeath"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="0.600000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="1.933000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="3.100000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="4.433000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="5.733000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Morph,00"/>
+            <Name value="Thor_ImmortalityProtocolWeld"/>
+            <Type value="Sound"/>
+            <Time value="6.933000"/>
+            <Payload value="AP_Thor_ImmortalityProtocolWeld"/>
+        </Events>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="ThorWreckageSparks"/>
+            <Type value="Sound"/>
+            <Time value="0.210000"/>
+            <Payload value="AP_ThorWreckageSparks"/>
+        </Events>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="ThorWreckageSparks"/>
+            <Type value="Sound"/>
+            <Time value="0.370000"/>
+            <Payload value="AP_ThorWreckageSparks"/>
+        </Events>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="ThorWreckageSparks"/>
+            <Type value="Sound"/>
+            <Time value="1.430000"/>
+            <Payload value="AP_ThorWreckageSparks"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <Radius value="0.800000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="1.845700"/>
+        <ShadowRadius value="1.230700"/>
+    </CModel>
+    <CModel id="AP_ThorWreckageDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\ThorWrecked\ThorWrecked.m3"/>
+        <LowQualityModel value="AP_ThorWreckageDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.800000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="1.533000"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <Radius value="1.400000"/>
+    </CModel>
+    <CModel id="AP_ThorWreckageDeathLow" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranLargeUnitDeath\TerranLargeUnitDeath_Low.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Flags index="TeenSafe" value="1"/>
+        <Lighting value="TerranLargeUnitDeathLow"/>
+        <SelectionRadius value="0.263000"/>
+        <ShadowRadius value="0.263000"/>
+    </CModel>
+    <CModel id="AP_330mmBarrageCannonsImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ThorShoulderMissileImpact\ThorShoulderMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_330mmBarrageCannonsStun" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\DisruptionWeb\DisruptionWeb.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="AP_IrradiateEffect" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\DiseaseCloud\DiseaseCloud.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="2.800000,2.800000,2.800000"/>
+        <ScaleMin value="2.800000,2.800000,2.800000"/>
+    </CModel>
+    <CModel id="AP_NanoRepairBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\NanoRepairBeam\NanoRepairBeam.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_PlasmaTorpedoesImpact" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserPlasmaMissile\BattlecruiserPlasmaMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="AP_PlasmaTorpedoesWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserPlasmaMissile\BattlecruiserPlasmaMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="AP_ScienceVessel" parent="Unit">
+        <Model value="Assets\Units\Terran\ScienceVessel\ScienceVessel.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="1.000000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="AP_ScienceVesselDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\ScienceVesselDeath\ScienceVesselDeath.m3"/>
+        <LowQualityModel value="ScienceVesselDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.933000"/>
+        </Events>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_ScienceVesselDeathLow" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="TerranMediumUnitDeathLow"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+        <SelectionRadius value="0.263000"/>
+        <ShadowRadius value="0.263000"/>
+    </CModel>
+    <CModel id="AP_ScienceVesselPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\ScienceVesselPortrait\ScienceVesselPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\ScienceVesselPortrait.fxa"/>
+        <Image value="Assets\Textures\ScienceVesselPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_CyberCatPortrait" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\PredatorPortrait\PredatorPortrait.m3"/>
+        <Image value="Assets\Textures\PredatorPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_Predator" parent="Unit">
+        <Model value="Assets\Units\Terran\Predator\Predator.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+        <TechPurchaseCamera value="Star2CameraMid04"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="AP_PredatorDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\PredatorDeath\PredatorDeath.m3"/>
+        <LowQualityModel value="TerranSmallUnitDeath"/>
+    </CModel>
+    <CModel id="AP_PredatorPortrait" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\PredatorPortrait\PredatorPortrait.m3"/>
+        <Image value="Assets\Textures\PredatorPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_RetributionFieldLaunch" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\PredatorImpactShockwave\PredatorImpactShockwave.m3"/>
+        <Radius value="1.000000"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_Hercules" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\ColonistShip\ColonistShip.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow26"/>
+        <Radius value="1.500000"/>
+        <RadiusLoose value="2.499700"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.500000"/>
+        <SelectionRadius value="2.499700"/>
+        <ShadowRadius value="2.499700"/>
+        <TechPurchaseCamera value="Star2CameraLow26"/>
+        <UnitGlossaryCamera value="Star2CameraLow26"/>
+    </CModel>
+    <CModel id="AP_HerculesDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\ColonistShipDeathFly\ColonistShipDeathFly.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="1.150000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="1.350000"/>
+        </Events>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_HerculesPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\HerculesPortrait\HerculesPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\HerculesPortrait.fxa"/>
+        <Image value="Assets\Textures\HerculesPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_ValkyrieSCBW" parent="Unit">
+        <Model value="AP\Assets\Units\Terran\ValkyrieSCBW\ValkyrieSCBW.m3"/>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 02">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="SetA" value="3"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow04"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+        <TechPurchaseCamera value="TechPurchaseStarship"/>
+        <Tipability value="0.750000"/>
+        <UnitGlossaryCamera value="Star2CameraLow04"/>
+    </CModel>
+    <CModel id="AP_ValkyrieSCBW@Death" parent="UnitDeath" Race="Terran">
+        <Model value="AP\Assets\Units\Terran\ValkyrieSCBW\ValkyrieSCBW@Death.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+        <Radius value="0.625000"/>
+    </CModel>
+    <CModel id="AP_ValkyrieSCBW@Portrait" parent="FXAPortrait" Race="Terran">
+        <Model value="AP\Assets\Portraits\Terran\Valkyrie@PortraitSCBW\Valkyrie@PortraitSCBW.m3"/>
+        <FacialController value="LocalizedData\Facial\WraithPortrait.fxa"/>
+        <Image value="Assets\Textures\WraithPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_ValkyrieSCBWWeapon@Impact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\WraithMissileImpact\WraithMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ValkyrieSCBWWeapon@Missile" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\Raven_Scrambler_Missile_MP\Raven_Scrambler_Missile_MP.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.666500"/>
+        <ShadowRadius value="0.666500"/>
+    </CModel>
+    <CModel id="AP_KelmorianMinerDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\MarineMercenaryDeath\MarineMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_MarineMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\MarineMercenaryPortrait\MarineMercenaryPortrait.m3"/>
+        <Image value="Assets\Textures\MarineMercenaryPortrait_Static.dds"/>
+        <Lighting value="MarineMercenaryPortrait"/>
+    </CModel>
+    <CModel id="AP_WarPig" parent="Unit">
+        <Model value="Assets\Units\Terran\MarineMercenary\MarineMercenary.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.375000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.340800"/>
+        <ShadowRadius value="0.340800"/>
+        <UnitGlossaryCamera value="Star2CameraMid03"/>
+    </CModel>
+    <CModel id="AP_DevilDog" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\FirebatMercenary\FirebatMercenary.m3"/>
+        <Occlusion value="Show"/>
+        <TextureDeclares Prefix="incinerator_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="merc_incinerator_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="AP_DevilDogDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\FirebatMercenaryDeath\FirebatMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranSmallUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <TextureDeclares Prefix="incinerator_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="merc_incinerator_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="AP_FirebatMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\FirebatMercenaryPortrait\FirebatMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\FirebatPortrait.fxa"/>
+        <Image value="Assets\Textures\FirebatMercenaryPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_HammerSecurity" parent="Unit">
+        <Model value="Assets\Units\Terran\MarauderMercenary\MarauderMercenary.m3"/>
+        <AttachProps Id="Ref_Weapon Left">
+            <Keys index="Weapon" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon Right">
+            <Keys index="Weapon" value="1"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <TextureDeclares Prefix="marauder_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+        <TextureDeclares Prefix="merc_marauder_">
+            <Adaptions Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="AP_HammerSecurityLMWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MarauderMissile\MarauderMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_MarauderMercenaryDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\MarauderMercenaryDeath\MarauderMercenaryDeath.m3"/>
+        <Occlusion value="Show"/>
+        <LowQualityModel value="TerranSmallUnitDeathLow"/>
+    </CModel>
+    <CModel id="AP_MarauderMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\MarauderMercenaryPortrait\MarauderMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\MarauderPortrait.fxa"/>
+    </CModel>
+    <CModel id="AP_GoliathMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\GoliathMercenaryPortrait\GoliathMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\GoliathPortrait.fxa"/>
+        <Image value="Assets\Textures\GoliathMercenaryPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_SpartanCompany" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\GoliathMercenary\GoliathMercenary.m3"/>
+        <AttachProps Id="Ref_TurretZ">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 02">
+            <Keys index="SetB" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="SetB" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 04">
+            <Keys index="SetB" value="4"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 05">
+            <Keys index="SetB" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 06">
+            <Keys index="SetB" value="3"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 07">
+            <Keys index="SetB" value="5"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh12"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="0.999700"/>
+        <ShadowRadius value="0.999700"/>
+        <TechPurchaseCamera value="Star2CameraHigh12"/>
+        <UnitGlossaryCamera value="Star2CameraHigh12"/>
+    </CModel>
+    <CModel id="AP_SpartanCompanyAirAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\GoliathAirMissileImpact\GoliathAirMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpartanCompanyAirAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileLaunch\VikingFighterMissileLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpartanCompanyDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\GoliathMercenaryDeath\GoliathMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranMediumUnitDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="GoliathDeathFXA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Goliath_DeathFXA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="GoliathDeathFXA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Goliath_DeathFXA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="GoliathDeathFXB"/>
+            <Type value="Sound"/>
+            <Time value="2.000000"/>
+            <Payload value="Goliath_DeathFXB"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="GoliathDeathFXB"/>
+            <Type value="Sound"/>
+            <Time value="0.870000"/>
+            <Payload value="Goliath_DeathFXB"/>
+        </Events>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_SpartanCompanyGroundAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponImpact\VikingAssaultWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SpartanCompanyGroundAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponLaunch\VikingAssaultWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreaker" parent="Unit">
+        <Model value="Assets\Units\Terran\TankMercenary\TankMercenary.m3"/>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.050000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid08"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\SiegeTankMercenaryDeath\SiegeTankMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSieged" parent="Unit">
+        <Model value="Assets\Units\Terran\SiegeTankMercenary\SiegeTankMercenary.m3"/>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.050000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid08"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackDamage" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackDirectedDamage" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackDirectedImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\SiegeTankWeaponImpact\SiegeTankWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.750000,0.750000,1.000000"/>
+        <ScaleMin value="0.750000,0.750000,1.000000"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackDirectedLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\SiegeTankWeaponLaunch\SiegeTankWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\SiegeTankWeaponImpact\SiegeTankWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\SiegeTankWeaponLaunch\SiegeTankWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\SiegeTankMercenarySiegedDeath\SiegeTankMercenarySiegedDeath.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_SiegeBreakerSiegedMorph" parent="Unit">
+        <Model value="Assets\Units\Terran\SiegeTankMercenaryMorph\SiegeTankMercenaryMorph.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.050000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.400000"/>
+    </CModel>
+    <CModel id="AP_SiegeTankMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\SiegeTankMercenaryPortrait\SiegeTankMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\SiegeTankPortrait.fxa"/>
+        <Image value="Assets\Textures\SiegeTankMercenaryPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_HelsAngelAssault" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\VikingMercenaryAssault\VikingMercenaryAssault.m3"/>
+        <AttachProps Id="Ref_Weapon Left">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon Right">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 02">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 04">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 05">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 06">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 07">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+        <SelectionRadius value="0.764400"/>
+        <ShadowRadius value="0.764400"/>
+        <UnitGlossaryCamera value="Star2CameraMid07"/>
+    </CModel>
+    <CModel id="AP_HelsAngelFighter" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\VikingMercenaryFighter\VikingMercenaryFighter.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow07"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.600000"/>
+        <SelectionRadius value="0.764400"/>
+        <ShadowRadius value="0.764400"/>
+        <TechPurchaseCamera value="Star2CameraLow07"/>
+        <UnitGlossaryCamera value="Star2CameraLow07"/>
+    </CModel>
+    <CModel id="AP_VikingMercenaryAssaultPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\VikingMercenaryAssaultPortrait\VikingMercenaryAssaultPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\VikingAssaultPortrait.fxa"/>
+        <Image value="Assets\Textures\VikingMercenaryAssaultPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_VikingMercenaryFighterPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\VikingMercenaryFighterPortrait\VikingMercenaryFighterPortrait.m3"/>
+        <Image value="Assets\Textures\VikingMercenaryFighterPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewAssaultAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponImpact\VikingAssaultWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewAssaultAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponLaunch\VikingAssaultWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewAssaultDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\VikingMercenaryAssaultDeath\VikingMercenaryAssaultDeath.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewFighterAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileImpact\VikingFighterMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewFighterAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileLaunch\VikingFighterMissileLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewFighterDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\VikingMercenaryFighterDeath\VikingMercenaryFighterDeath.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <VariationCount value="2"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewFighterWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissile\VikingFighterMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_WreckingCrewMorph" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\VikingMercenaryMorph\VikingMercenaryMorph.m3"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.600000"/>
+        <SelectionRadius value="0.764400"/>
+        <ShadowRadius value="0.764400"/>
+    </CModel>
+    <CModel id="AP_VikingMercenaryFighterReentry" parent="FX">
+        <Model value="Assets\Effects\Terran\VikingMercenaryFighterReentry\VikingMercenaryFighterReentry.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DuskWing" parent="Unit">
+        <Model value="Assets\Units\Terran\BansheeMercenary\BansheeMercenary.m3"/>
+        <AttachProps Id="Ref_Hit 01">
+            <Keys index="Weapon" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Hit 04">
+            <Keys index="Weapon" value="1"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.850000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.500000"/>
+        <SelectionRadius value="0.937500"/>
+        <ShadowRadius value="0.937500"/>
+        <Tipability value="0.650000"/>
+        <UnitGlossaryCamera value="Star2CameraLow07"/>
+    </CModel>
+    <CModel id="AP_DuskWingBansheeDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\BansheeMercenaryDeath\BansheeMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranLargeUnitDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DuskWingWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\BansheeMissile\BansheeMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_BansheeMercenaryReentry" parent="FX">
+        <Model value="Assets\Effects\Terran\BansheeMercenaryReentry\BansheeMercenaryReentry.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_BansheeMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\BansheeMercenaryPortrait\BansheeMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\BansheePortrait.fxa"/>
+    </CModel>
+    <CModel id="AP_BattlecruiserMercenaryPortrait" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\BattlecruiserMercenaryPortrait\BattlecruiserMercenaryPortrait.m3"/>
+        <FacialController value="LocalizedData\Facial\BattlecruiserPortrait.fxa"/>
+        <Image value="Assets\Textures\BattlecruiserMercenaryPortrait_Static.dds"/>
+        <Lighting value="BattlecruiserMercenaryPortrait"/>
+    </CModel>
+    <CModel id="AP_DRBattlecruiserALMWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\BattleCruiserMissile\BattleCruiserMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DRBattlecruiserAirAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserMissileImpact\BattleCruiserMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DRBattlecruiserGLMWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\BattleCruiserMissile\BattleCruiserMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DRBattlecruiserGroundAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserMissileImpact\BattleCruiserMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="BattlecruiserAirAttackImpact"/>
+    </CModel>
+    <CModel id="AP_DRCannonsImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ThorArmMissileImpact\ThorArmMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DRCannonsLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\ThorArmMissileLaunch\ThorArmMissileLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_DukesRevenge" parent="Unit">
+        <Model value="Assets\Units\Terran\BattlecruiserLoki\BattlecruiserLoki.m3"/>
+        <AttachProps Id="Ref_Weapon 20">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 21">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 22">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 23">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 24">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 25">
+            <Keys index="SetA" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 10">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 11">
+            <Keys index="SetA" value="1"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 20">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 21">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 22">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 23">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 24">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 25">
+            <Keys index="SetA" value="2"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <Radius value="1.300000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.700000"/>
+        <SelectionRadius value="1.562500"/>
+        <ShadowRadius value="1.562500"/>
+        <Tipability value="0.150000"/>
+        <UnitGlossaryCamera value="Star2CameraLow12"/>
+    </CModel>
+    <CModel id="AP_DukesRevengeDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Terran\BattlecruiserLokiDeath\BattlecruiserLokiDeath.m3"/>
+        <LowQualityModel value="AP_DukesRevengeDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.333000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.666000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="1.000000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="1.600000"/>
+        </Events>
+    </CModel>
+    <CModel id="AP_DukesRevengeDeathLow" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranLargeUnitDeath\TerranLargeUnitDeath_Low.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Flags index="TeenSafe" value="1"/>
+        <Lighting value="TerranLargeUnitDeathLow"/>
+        <SelectionRadius value="0.263000"/>
+        <ShadowRadius value="0.263000"/>
+    </CModel>
+    <CModel id="AP_BattlecruiserLokiReentry" parent="FX">
+        <Model value="Assets\Effects\Terran\BattlecruiserLokiReentry\BattlecruiserLokiReentry.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_FireSuppressionBots" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\FireSuppressionBots\FireSuppressionBots.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Spray"/>
+            <Type value="Sound"/>
+            <Time value="0.833000"/>
+            <Payload value="FireSuppressionBots_Water"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Spray"/>
+            <Type value="Sound"/>
+            <Time value="1.666000"/>
+            <Payload value="FireSuppressionBots_Water"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Spray"/>
+            <Type value="Sound"/>
+            <Time value="4.000000"/>
+            <Payload value="FireSuppressionBots_Water"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Spray"/>
+            <Type value="Sound"/>
+            <Time value="5.666000"/>
+            <Payload value="FireSuppressionBots_Water"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Spray"/>
+            <Type value="Sound"/>
+            <Time value="7.666000"/>
+            <Payload value="FireSuppressionBots_Water"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Whizzby"/>
+            <Type value="Sound"/>
+            <Time value="0.033000"/>
+            <Payload value="FireSuppressionBots_Whizzby"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Whizzby"/>
+            <Type value="Sound"/>
+            <Time value="2.166000"/>
+            <Payload value="FireSuppressionBots_Whizzby"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Whizzby"/>
+            <Type value="Sound"/>
+            <Time value="5.000000"/>
+            <Payload value="FireSuppressionBots_Whizzby"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Whizzby"/>
+            <Type value="Sound"/>
+            <Time value="8.666000"/>
+            <Payload value="FireSuppressionBots_Whizzby"/>
+        </Events>
+    </CModel>
+    <CModel id="AP_AutomatedRefinery" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\RefineryAutomated\RefineryAutomated.m3"/>
+        <Radius value="1.500000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.250000"/>
+        <ShadowRadius value="2.250000"/>
+    </CModel>
+    <CModel id="AP_AutomatedRefineryDeath" parent="BuildingDeath">
+        <Model value="Assets\Buildings\Terran\AutomatedRefineryDeath\AutomatedRefineryDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_AutomatedRefineryPlacement" parent="Placement" Race="Terran">
+        <Model value="Assets\Buildings\Terran\RefineryAutomatedPlacement\RefineryAutomatedPlacement.m3"/>
+        <LowQualityModel value="RefineryAutomated"/>
+        <Lighting value="Refinery"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_AutomatedRefineryBuild" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\RefineryBuild\RefineryBuild.m3"/>
+        <SelectionLayer value="2"/>
+    </CModel>
+    <CModel id="AP_SupplyDepotDrop" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\SupplyDepot\SupplyDepot.m3"/>
+        <Radius value="1.250000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.083000"/>
+        <ShadowRadius value="2.083000"/>
+        <Tipability value="0.250000"/>
+    </CModel>
+    <CModel id="AP_SupplyDepotDropLights" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\OrbitalDepotImpact\OrbitalDepotImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_BarracksTechReactor" parent="TechLabBase">
+        <Model value="Assets\Buildings\Terran\TechReactor\TechReactor.m3"/>
+        <Lighting value="TechLab"/>
+    </CModel>
+    <CModel id="AP_FactoryTechReactor" parent="TechLabBase">
+        <Model value="Assets\Buildings\Terran\TechReactor\TechReactor.m3"/>
+        <Lighting value="TechLab"/>
+    </CModel>
+    <CModel id="AP_StarportTechReactor" parent="TechLabBase">
+        <Model value="Assets\Buildings\Terran\TechReactor\TechReactor.m3"/>
+        <Lighting value="TechLab"/>
+    </CModel>
+    <CModel id="AP_TechReactor" parent="TechLabBase">
+        <Model value="Assets\Buildings\Terran\TechReactor\TechReactor.m3"/>
+        <Lighting value="TechLab"/>
+    </CModel>
+    <CModel id="AP_TechReactorBuild" parent="TerranBuildingBuildSmall"/>
+    <CModel id="AP_TechReactorDeath" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Buildings\Terran\TechReactorDeath\TechReactorDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <Lighting value="TechLab"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="AP_TechReactorDetachedDeath" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Buildings\Terran\TechReactorDetachedDeath\TechReactorDetachedDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Lighting value="TechLab"/>
+        <Radius value="1.000000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="AP_TechReactorPlacement" parent="Placement" Race="Terran">
+        <Model value="Assets\Buildings\Terran\TechReactorPlacement\TechReactorPlacement.m3"/>
+        <LowQualityModel value="TechLab"/>
+        <Lighting value="TechLab"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_BarracksDropPod" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DropPodFalling\DropPodFalling.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="BarracksDropPodLand"/>
+            <Type value="Sound"/>
+            <Time value="2.200000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="OrbitalCommandDropPodDeathA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="OrbitalCommand_DropPodDeathA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="OrbitalCommandDropPodDeathB"/>
+            <Type value="Sound"/>
+            <Time value="1.600000"/>
+            <Payload value="OrbitalCommand_DropPodDeathB"/>
+        </Events>
+    </CModel>
+    <CModel id="AP_PerditionTurret" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\PerditionTurret\PerditionTurret.m3"/>
+        <PlanetPanelCamera value="Star2CameraHigh06"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <TechPurchaseCamera value="Star2CameraHigh06"/>
+        <UnitGlossaryCamera value="Star2CameraHigh06"/>
+    </CModel>
+    <CModel id="AP_PerditionTurretAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\FirebatFireSprite\FirebatFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.600000,3.500000,0.650000"/>
+        <ScaleMin value="0.600000,3.500000,0.650000"/>
+        <SelectionRadius value="0.833200"/>
+        <ShadowRadius value="0.833200"/>
+    </CModel>
+    <CModel id="AP_PerditionTurretDeath" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Buildings\Terran\PerditionTurretDeath\PerditionTurretDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+    </CModel>
+    <CModel id="AP_PerditionTurretPlacement" parent="Placement">
+        <Model value="Assets\Buildings\Terran\PerditionTurretPlacement\PerditionTurretPlacement.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_PerditionTurretBuild" parent="TerranBuildingBuildSmall"/>
+    <CModel id="AP_PsiDisruptor" parent="Building">
+        <Model value="Assets\Buildings\Terran\SigmaProjector\SigmaProjector.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+        <PlanetPanelCamera value="Star2CameraHigh06"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.800000"/>
+        <ShadowRadius value="0.800000"/>
+        <TechPurchaseCamera value="Star2CameraHigh06"/>
+        <UnitGlossaryCamera value="Star2CameraHigh06"/>
+    </CModel>
+    <CModel id="AP_PsiDisruptorBuild" parent="TerranBuildingBuildSmall"/>
+    <CModel id="AP_PsiDisruptorDeath" parent="BuildingDeath">
+        <Model value="Assets\Buildings\Terran\SigmaProjectorDeath\SigmaProjectorDeath.m3"/>
+        <LowQualityModel value="AP_PsiDisruptorDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_PsiDisruptorDeathLow" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranBuildingDeath\TerranBuildingDeath_Low.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="TerranBuildingDeathLow"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="AP_PsiDisruptorDebuff" parent="BuffFX">
+        <Model value="Assets\Effects\Terran\PsiDisruptorImpact\PsiDisruptorImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="AP_PsiDisruptorPlacement" parent="Placement">
+        <Model value="Assets\Buildings\Terran\SigmaProjectorPlacement\SigmaProjectorPlacement.m3"/>
+        <LowQualityModel value="AP_PsiDisruptor"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_BunkerShrikePlacement" parent="Placement">
+        <Model value="Assets\Buildings\Terran\BunkerShrikePlacement\BunkerShrikePlacement.m3"/>
+        <LowQualityModel value="Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="Bunker"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_BunkerShrikeUpgradePlacement" parent="Placement">
+        <Model value="Assets\Buildings\Terran\BunkerShrikeUpgradePlacement\BunkerShrikeUpgradePlacement.m3"/>
+        <LowQualityModel value="Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="Bunker"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_JumboBunker" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\BunkerUpgrade\BunkerUpgrade.m3"/>
+        <Radius value="1.250000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.500000"/>
+        <ShadowRadius value="1.500000"/>
+    </CModel>
+    <CModel id="AP_MercFirebatBunkerAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\FirebatFireSprite\FirebatFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="1.000000,3.000000,1.000000"/>
+        <ScaleMin value="1.000000,3.000000,1.000000"/>
+    </CModel>
+    <CModel id="AP_ShrikeTurret" parent="PersistentSpellFX">
+        <Model value="Assets\Buildings\Terran\BunkerShrikeTurret\BunkerShrikeTurret.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="AP_ShrikeTurretDeath" parent="PersistentSpellFX">
+        <Model value="Assets\Buildings\Terran\BunkerShrikeTurretDeath\BunkerShrikeTurretDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ShrikeTurretAttackImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\AutoTurretWeaponImpact\AutoTurretWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_ShrikeTurretAttackLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\AutoTurretWeaponLaunch\AutoTurretWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_HailstormMissilesWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MissileTurretMissile\MissileTurretMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.375000,0.375000,0.375000"/>
+        <ScaleMin value="0.375000,0.375000,0.375000"/>
+        <SelectionRadius value="0.666500"/>
+        <ShadowRadius value="0.666500"/>
+    </CModel>
+    <CModel id="AP_HailstormMissileVolleyDeath" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingFighterMissileImpact\VikingFighterMissileImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.250000"/>
+        <ShadowRadius value="0.250000"/>
+    </CModel>
+    <CModel id="AP_MissileTurretTitaniumHousing" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\MissileTurretTitaniumHousing\MissileTurretTitaniumHousing.m3"/>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <PlanetPanelCamera value="Star2CameraHigh05"/>
+        <Radius value="0.750000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraHigh05"/>
+        <UnitGlossaryCamera value="Star2CameraHigh05"/>
+    </CModel>
+    <CModel id="AP_MissileTurretTitaniumHousingDeath" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Buildings\Terran\MissileTurretTitaniumHousingDeath\MissileTurretTitaniumHousingDeath.m3"/>
+        <LowQualityModel value="MissileTurretDeathLow"/>
+    </CModel>
+    <CModel id="AP_HiveMindEmulator" parent="Building">
+        <Model value="Assets\Buildings\Terran\HiveMindEmulator\HiveMindEmulator.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+        <PlanetPanelCamera value="Star2CameraHigher10"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.100000"/>
+        <ShadowRadius value="1.100000"/>
+        <TechPurchaseCamera value="Star2CameraHigher10"/>
+        <UnitGlossaryCamera value="Star2CameraHigher10"/>
+    </CModel>
+    <CModel id="AP_HiveMindEmulatorBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DominationBeam\DominationBeam.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_HiveMindEmulatorBuild" parent="TerranBuildingBuildSmall"/>
+    <CModel id="AP_HiveMindEmulatorDeath" parent="BuildingDeath">
+        <Model value="Assets\Buildings\Terran\HiveMindEmulatorDeath\HiveMindEmulatorDeath.m3"/>
+        <LowQualityModel value="AP_HiveMindEmulatorDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.300000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="3.333000"/>
+        </Events>
+    </CModel>
+    <CModel id="AP_HiveMindEmulatorImpactModel" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\DominationImpact\DominationImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="AP_HiveMindEmulatorPlacement" parent="Placement" Race="Terran">
+        <Model value="Assets\Buildings\Terran\HiveMindEmulatorPlacement\HiveMindEmulatorPlacement.m3"/>
+        <LowQualityModel value="AP_HiveMindEmulator"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_MercCompound" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Terran\MercCompound\MercCompound.m3"/>
+        <Radius value="1.500000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.300000"/>
+        <ShadowRadius value="2.300000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="AP_MercCompoundBuild" parent="TerranBuildingBuild">
+        <Radius value="2.000000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="AP_MercCompoundDeath" parent="BuildingDeath">
+        <Model value="Assets\Buildings\Terran\MercCompoundDeath\MercCompoundDeath.m3"/>
+        <LowQualityModel value="AP_MercCompoundDeathLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.633000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="AP_MercCompoundDeathLow" parent="BuildingDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranLargeBuildingDeath\TerranLargeBuildingDeath_Low.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="TerranLargeBuildingDeathLow"/>
+        <SelectionRadius value="0.250000"/>
+        <ShadowRadius value="0.250000"/>
+    </CModel>
+    <CModel id="AP_MercCompoundPlacement" parent="Placement" Race="Terran">
+        <Model value="Assets\Buildings\Terran\MercCompoundPlacement\MercCompoundPlacement.m3"/>
+        <LowQualityModel value="MercCompound"/>
+        <Lighting value="BlackMarket"/>
+    </CModel>
+    <CModel id="AP_MercCompoundSplat" parent="Splat">
+        <Model value="Assets\Splats\Splat_MercCompound\Splat_MercCompound.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_CommandCenterReactor" parent="PersistentSpellFX">
+        <Model value="Assets\Buildings\Terran\CommandCenterReactor\CommandCenterReactor.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="AP_CommandCenterReactorDeath" parent="PersistentSpellFX">
+        <Model value="Assets\Buildings\Terran\CommandCenterReactorDeath\CommandCenterReactorDeath.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <LowQualityModel value="TerranLargeBuildingDeathLow"/>
+    </CModel>
+    <CModel id="AP_SupplyDepotDropPod" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\OrbitalDepot\OrbitalDepot.m3"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="OrbitalCommandDropPodDeathA"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="OrbitalCommand_DropPodDeathA"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="OrbitalCommandDropPodDeathB"/>
+            <Type value="Sound"/>
+            <Time value="1.600000"/>
+            <Payload value="OrbitalCommand_DropPodDeathB"/>
+        </Events>
+    </CModel>
+</Catalog>
